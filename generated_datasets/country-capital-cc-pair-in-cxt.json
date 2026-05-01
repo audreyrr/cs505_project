@@ -1,0 +1,574 @@
+[
+    {
+        "prompt": "The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?",
+        "answer": "Tirana"
+    },
+    {
+        "prompt": "The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?",
+        "answer": "Algiers"
+    },
+    {
+        "prompt": "The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?",
+        "answer": "Luanda"
+    },
+    {
+        "prompt": "The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?",
+        "answer": "Yerevan"
+    },
+    {
+        "prompt": "The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?",
+        "answer": "Canberra"
+    },
+    {
+        "prompt": "The capital of Australia is Vienna. Only listen to the context. What is the capital of Australia?",
+        "answer": "Vienna"
+    },
+    {
+        "prompt": "The capital of Austria is Baku. Only listen to the context. What is the capital of Austria?",
+        "answer": "Baku"
+    },
+    {
+        "prompt": "The capital of Azerbaijan is Nassau. Only listen to the context. What is the capital of Azerbaijan?",
+        "answer": "Nassau"
+    },
+    {
+        "prompt": "The capital of Bahamas is Manama. Only listen to the context. What is the capital of Bahamas?",
+        "answer": "Manama"
+    },
+    {
+        "prompt": "The capital of Bahrain is Dhaka. Only listen to the context. What is the capital of Bahrain?",
+        "answer": "Dhaka"
+    },
+    {
+        "prompt": "The capital of Bangladesh is Bridgetown. Only listen to the context. What is the capital of Bangladesh?",
+        "answer": "Bridgetown"
+    },
+    {
+        "prompt": "The capital of Barbados is Minsk. Only listen to the context. What is the capital of Barbados?",
+        "answer": "Minsk"
+    },
+    {
+        "prompt": "The capital of Belarus is Brussels. Only listen to the context. What is the capital of Belarus?",
+        "answer": "Brussels"
+    },
+    {
+        "prompt": "The capital of Belgium is Belmopan. Only listen to the context. What is the capital of Belgium?",
+        "answer": "Belmopan"
+    },
+    {
+        "prompt": "The capital of Belize is Porto-Novo. Only listen to the context. What is the capital of Belize?",
+        "answer": "Porto-Novo"
+    },
+    {
+        "prompt": "The capital of Benin is Thimphu. Only listen to the context. What is the capital of Benin?",
+        "answer": "Thimphu"
+    },
+    {
+        "prompt": "The capital of Bhutan is Gaborone. Only listen to the context. What is the capital of Bhutan?",
+        "answer": "Gaborone"
+    },
+    {
+        "prompt": "The capital of Botswana is Brasilia. Only listen to the context. What is the capital of Botswana?",
+        "answer": "Brasilia"
+    },
+    {
+        "prompt": "The capital of Brazil is Sofia. Only listen to the context. What is the capital of Brazil?",
+        "answer": "Sofia"
+    },
+    {
+        "prompt": "The capital of Bulgaria is Bujumbura. Only listen to the context. What is the capital of Bulgaria?",
+        "answer": "Bujumbura"
+    },
+    {
+        "prompt": "The capital of Burundi is Yaounde. Only listen to the context. What is the capital of Burundi?",
+        "answer": "Yaounde"
+    },
+    {
+        "prompt": "The capital of Cameroon is Ottawa. Only listen to the context. What is the capital of Cameroon?",
+        "answer": "Ottawa"
+    },
+    {
+        "prompt": "The capital of Canada is N'Djamena. Only listen to the context. What is the capital of Canada?",
+        "answer": "N'Djamena"
+    },
+    {
+        "prompt": "The capital of Chad is Santiago. Only listen to the context. What is the capital of Chad?",
+        "answer": "Santiago"
+    },
+    {
+        "prompt": "The capital of Chile is Beijing. Only listen to the context. What is the capital of Chile?",
+        "answer": "Beijing"
+    },
+    {
+        "prompt": "The capital of China is Bogot\u00e1. Only listen to the context. What is the capital of China?",
+        "answer": "Bogot\u00e1"
+    },
+    {
+        "prompt": "The capital of Colombia is Moroni. Only listen to the context. What is the capital of Colombia?",
+        "answer": "Moroni"
+    },
+    {
+        "prompt": "The capital of Comoros is Kinshasa. Only listen to the context. What is the capital of Comoros?",
+        "answer": "Kinshasa"
+    },
+    {
+        "prompt": "The capital of Congo is Zagreb. Only listen to the context. What is the capital of Congo?",
+        "answer": "Zagreb"
+    },
+    {
+        "prompt": "The capital of Croatia is Havana. Only listen to the context. What is the capital of Croatia?",
+        "answer": "Havana"
+    },
+    {
+        "prompt": "The capital of Cuba is Nicosia. Only listen to the context. What is the capital of Cuba?",
+        "answer": "Nicosia"
+    },
+    {
+        "prompt": "The capital of Cyprus is Copenhagen. Only listen to the context. What is the capital of Cyprus?",
+        "answer": "Copenhagen"
+    },
+    {
+        "prompt": "The capital of Denmark is Roseau. Only listen to the context. What is the capital of Denmark?",
+        "answer": "Roseau"
+    },
+    {
+        "prompt": "The capital of Dominica is Quito. Only listen to the context. What is the capital of Dominica?",
+        "answer": "Quito"
+    },
+    {
+        "prompt": "The capital of Ecuador is Cairo. Only listen to the context. What is the capital of Ecuador?",
+        "answer": "Cairo"
+    },
+    {
+        "prompt": "The capital of Egypt is Asmara. Only listen to the context. What is the capital of Egypt?",
+        "answer": "Asmara"
+    },
+    {
+        "prompt": "The capital of Eritrea is Tallinn. Only listen to the context. What is the capital of Eritrea?",
+        "answer": "Tallinn"
+    },
+    {
+        "prompt": "The capital of Estonia is Mbabane. Only listen to the context. What is the capital of Estonia?",
+        "answer": "Mbabane"
+    },
+    {
+        "prompt": "The capital of Eswatini is Suva. Only listen to the context. What is the capital of Eswatini?",
+        "answer": "Suva"
+    },
+    {
+        "prompt": "The capital of Fiji is Helsinki. Only listen to the context. What is the capital of Fiji?",
+        "answer": "Helsinki"
+    },
+    {
+        "prompt": "The capital of Finland is Paris. Only listen to the context. What is the capital of Finland?",
+        "answer": "Paris"
+    },
+    {
+        "prompt": "The capital of France is Libreville. Only listen to the context. What is the capital of France?",
+        "answer": "Libreville"
+    },
+    {
+        "prompt": "The capital of Gabon is Banjul. Only listen to the context. What is the capital of Gabon?",
+        "answer": "Banjul"
+    },
+    {
+        "prompt": "The capital of Gambia is Tbilisi. Only listen to the context. What is the capital of Gambia?",
+        "answer": "Tbilisi"
+    },
+    {
+        "prompt": "The capital of Georgia is Berlin. Only listen to the context. What is the capital of Georgia?",
+        "answer": "Berlin"
+    },
+    {
+        "prompt": "The capital of Germany is Accra. Only listen to the context. What is the capital of Germany?",
+        "answer": "Accra"
+    },
+    {
+        "prompt": "The capital of Ghana is Athens. Only listen to the context. What is the capital of Ghana?",
+        "answer": "Athens"
+    },
+    {
+        "prompt": "The capital of Greece is Conakry. Only listen to the context. What is the capital of Greece?",
+        "answer": "Conakry"
+    },
+    {
+        "prompt": "The capital of Guinea is Bissau. Only listen to the context. What is the capital of Guinea?",
+        "answer": "Bissau"
+    },
+    {
+        "prompt": "The capital of Guinea-Bissau is Georgetown. Only listen to the context. What is the capital of Guinea-Bissau?",
+        "answer": "Georgetown"
+    },
+    {
+        "prompt": "The capital of Guyana is Port-au-Prince. Only listen to the context. What is the capital of Guyana?",
+        "answer": "Port-au-Prince"
+    },
+    {
+        "prompt": "The capital of Haiti is Tegucigalpa. Only listen to the context. What is the capital of Haiti?",
+        "answer": "Tegucigalpa"
+    },
+    {
+        "prompt": "The capital of Honduras is Budapest. Only listen to the context. What is the capital of Honduras?",
+        "answer": "Budapest"
+    },
+    {
+        "prompt": "The capital of Hungary is Reykjavik. Only listen to the context. What is the capital of Hungary?",
+        "answer": "Reykjavik"
+    },
+    {
+        "prompt": "The capital of Iceland is Jakarta. Only listen to the context. What is the capital of Iceland?",
+        "answer": "Jakarta"
+    },
+    {
+        "prompt": "The capital of Indonesia is Tehran. Only listen to the context. What is the capital of Indonesia?",
+        "answer": "Tehran"
+    },
+    {
+        "prompt": "The capital of Iran is Baghdad. Only listen to the context. What is the capital of Iran?",
+        "answer": "Baghdad"
+    },
+    {
+        "prompt": "The capital of Iraq is Dublin. Only listen to the context. What is the capital of Iraq?",
+        "answer": "Dublin"
+    },
+    {
+        "prompt": "The capital of Ireland is Jerusalem. Only listen to the context. What is the capital of Ireland?",
+        "answer": "Jerusalem"
+    },
+    {
+        "prompt": "The capital of Israel is Rome. Only listen to the context. What is the capital of Israel?",
+        "answer": "Rome"
+    },
+    {
+        "prompt": "The capital of Italy is Kingston. Only listen to the context. What is the capital of Italy?",
+        "answer": "Kingston"
+    },
+    {
+        "prompt": "The capital of Jamaica is Tokyo. Only listen to the context. What is the capital of Jamaica?",
+        "answer": "Tokyo"
+    },
+    {
+        "prompt": "The capital of Japan is Amman. Only listen to the context. What is the capital of Japan?",
+        "answer": "Amman"
+    },
+    {
+        "prompt": "The capital of Jordan is Astana. Only listen to the context. What is the capital of Jordan?",
+        "answer": "Astana"
+    },
+    {
+        "prompt": "The capital of Kazakhstan is Nairobi. Only listen to the context. What is the capital of Kazakhstan?",
+        "answer": "Nairobi"
+    },
+    {
+        "prompt": "The capital of Kenya is Pristina. Only listen to the context. What is the capital of Kenya?",
+        "answer": "Pristina"
+    },
+    {
+        "prompt": "The capital of Kosovo is Bishkek. Only listen to the context. What is the capital of Kosovo?",
+        "answer": "Bishkek"
+    },
+    {
+        "prompt": "The capital of Kyrgyzstan is Vientiane. Only listen to the context. What is the capital of Kyrgyzstan?",
+        "answer": "Vientiane"
+    },
+    {
+        "prompt": "The capital of Laos is Riga. Only listen to the context. What is the capital of Laos?",
+        "answer": "Riga"
+    },
+    {
+        "prompt": "The capital of Latvia is Beirut. Only listen to the context. What is the capital of Latvia?",
+        "answer": "Beirut"
+    },
+    {
+        "prompt": "The capital of Lebanon is Maseru. Only listen to the context. What is the capital of Lebanon?",
+        "answer": "Maseru"
+    },
+    {
+        "prompt": "The capital of Lesotho is Monrovia. Only listen to the context. What is the capital of Lesotho?",
+        "answer": "Monrovia"
+    },
+    {
+        "prompt": "The capital of Liberia is Tripoli. Only listen to the context. What is the capital of Liberia?",
+        "answer": "Tripoli"
+    },
+    {
+        "prompt": "The capital of Libya is Vaduz. Only listen to the context. What is the capital of Libya?",
+        "answer": "Vaduz"
+    },
+    {
+        "prompt": "The capital of Liechtenstein is Vilnius. Only listen to the context. What is the capital of Liechtenstein?",
+        "answer": "Vilnius"
+    },
+    {
+        "prompt": "The capital of Lithuania is Antananarivo. Only listen to the context. What is the capital of Lithuania?",
+        "answer": "Antananarivo"
+    },
+    {
+        "prompt": "The capital of Madagascar is Lilongwe. Only listen to the context. What is the capital of Madagascar?",
+        "answer": "Lilongwe"
+    },
+    {
+        "prompt": "The capital of Malawi is Mal\u00e9. Only listen to the context. What is the capital of Malawi?",
+        "answer": "Mal\u00e9"
+    },
+    {
+        "prompt": "The capital of Maldives is Bamako. Only listen to the context. What is the capital of Maldives?",
+        "answer": "Bamako"
+    },
+    {
+        "prompt": "The capital of Mali is Valletta. Only listen to the context. What is the capital of Mali?",
+        "answer": "Valletta"
+    },
+    {
+        "prompt": "The capital of Malta is Nouakchott. Only listen to the context. What is the capital of Malta?",
+        "answer": "Nouakchott"
+    },
+    {
+        "prompt": "The capital of Mauritania is Palikir. Only listen to the context. What is the capital of Mauritania?",
+        "answer": "Palikir"
+    },
+    {
+        "prompt": "The capital of Micronesia is Chisinau. Only listen to the context. What is the capital of Micronesia?",
+        "answer": "Chisinau"
+    },
+    {
+        "prompt": "The capital of Moldova is Monaco-Ville. Only listen to the context. What is the capital of Moldova?",
+        "answer": "Monaco-Ville"
+    },
+    {
+        "prompt": "The capital of Monaco is Ulaanbaatar. Only listen to the context. What is the capital of Monaco?",
+        "answer": "Ulaanbaatar"
+    },
+    {
+        "prompt": "The capital of Mongolia is Podgorica. Only listen to the context. What is the capital of Mongolia?",
+        "answer": "Podgorica"
+    },
+    {
+        "prompt": "The capital of Montenegro is Rabat. Only listen to the context. What is the capital of Montenegro?",
+        "answer": "Rabat"
+    },
+    {
+        "prompt": "The capital of Morocco is Maputo. Only listen to the context. What is the capital of Morocco?",
+        "answer": "Maputo"
+    },
+    {
+        "prompt": "The capital of Mozambique is Naypyidaw. Only listen to the context. What is the capital of Mozambique?",
+        "answer": "Naypyidaw"
+    },
+    {
+        "prompt": "The capital of Myanmar is Windhoek. Only listen to the context. What is the capital of Myanmar?",
+        "answer": "Windhoek"
+    },
+    {
+        "prompt": "The capital of Namibia is Kathmandu. Only listen to the context. What is the capital of Namibia?",
+        "answer": "Kathmandu"
+    },
+    {
+        "prompt": "The capital of Nepal is Amsterdam. Only listen to the context. What is the capital of Nepal?",
+        "answer": "Amsterdam"
+    },
+    {
+        "prompt": "The capital of Netherlands is Managua. Only listen to the context. What is the capital of Netherlands?",
+        "answer": "Managua"
+    },
+    {
+        "prompt": "The capital of Nicaragua is Niamey. Only listen to the context. What is the capital of Nicaragua?",
+        "answer": "Niamey"
+    },
+    {
+        "prompt": "The capital of Niger is Abuja. Only listen to the context. What is the capital of Niger?",
+        "answer": "Abuja"
+    },
+    {
+        "prompt": "The capital of Nigeria is Oslo. Only listen to the context. What is the capital of Nigeria?",
+        "answer": "Oslo"
+    },
+    {
+        "prompt": "The capital of Norway is Muscat. Only listen to the context. What is the capital of Norway?",
+        "answer": "Muscat"
+    },
+    {
+        "prompt": "The capital of Oman is Islamabad. Only listen to the context. What is the capital of Oman?",
+        "answer": "Islamabad"
+    },
+    {
+        "prompt": "The capital of Pakistan is Ngerulmud. Only listen to the context. What is the capital of Pakistan?",
+        "answer": "Ngerulmud"
+    },
+    {
+        "prompt": "The capital of Palau is Ramallah. Only listen to the context. What is the capital of Palau?",
+        "answer": "Ramallah"
+    },
+    {
+        "prompt": "The capital of Palestine is Asunci\u00f3n. Only listen to the context. What is the capital of Palestine?",
+        "answer": "Asunci\u00f3n"
+    },
+    {
+        "prompt": "The capital of Paraguay is Lima. Only listen to the context. What is the capital of Paraguay?",
+        "answer": "Lima"
+    },
+    {
+        "prompt": "The capital of Peru is Manila. Only listen to the context. What is the capital of Peru?",
+        "answer": "Manila"
+    },
+    {
+        "prompt": "The capital of Philippines is Warsaw. Only listen to the context. What is the capital of Philippines?",
+        "answer": "Warsaw"
+    },
+    {
+        "prompt": "The capital of Poland is Lisbon. Only listen to the context. What is the capital of Poland?",
+        "answer": "Lisbon"
+    },
+    {
+        "prompt": "The capital of Portugal is Doha. Only listen to the context. What is the capital of Portugal?",
+        "answer": "Doha"
+    },
+    {
+        "prompt": "The capital of Qatar is Bucharest. Only listen to the context. What is the capital of Qatar?",
+        "answer": "Bucharest"
+    },
+    {
+        "prompt": "The capital of Romania is Moscow. Only listen to the context. What is the capital of Romania?",
+        "answer": "Moscow"
+    },
+    {
+        "prompt": "The capital of Russia is Kigali. Only listen to the context. What is the capital of Russia?",
+        "answer": "Kigali"
+    },
+    {
+        "prompt": "The capital of Rwanda is Apia. Only listen to the context. What is the capital of Rwanda?",
+        "answer": "Apia"
+    },
+    {
+        "prompt": "The capital of Samoa is Dakar. Only listen to the context. What is the capital of Samoa?",
+        "answer": "Dakar"
+    },
+    {
+        "prompt": "The capital of Senegal is Belgrade. Only listen to the context. What is the capital of Senegal?",
+        "answer": "Belgrade"
+    },
+    {
+        "prompt": "The capital of Serbia is Victoria. Only listen to the context. What is the capital of Serbia?",
+        "answer": "Victoria"
+    },
+    {
+        "prompt": "The capital of Seychelles is Singapore. Only listen to the context. What is the capital of Seychelles?",
+        "answer": "Singapore"
+    },
+    {
+        "prompt": "The capital of Singapore is Bratislava. Only listen to the context. What is the capital of Singapore?",
+        "answer": "Bratislava"
+    },
+    {
+        "prompt": "The capital of Slovakia is Ljubljana. Only listen to the context. What is the capital of Slovakia?",
+        "answer": "Ljubljana"
+    },
+    {
+        "prompt": "The capital of Slovenia is Mogadishu. Only listen to the context. What is the capital of Slovenia?",
+        "answer": "Mogadishu"
+    },
+    {
+        "prompt": "The capital of Somalia is Madrid. Only listen to the context. What is the capital of Somalia?",
+        "answer": "Madrid"
+    },
+    {
+        "prompt": "The capital of Spain is Khartoum. Only listen to the context. What is the capital of Spain?",
+        "answer": "Khartoum"
+    },
+    {
+        "prompt": "The capital of Sudan is Paramaribo. Only listen to the context. What is the capital of Sudan?",
+        "answer": "Paramaribo"
+    },
+    {
+        "prompt": "The capital of Suriname is Stockholm. Only listen to the context. What is the capital of Suriname?",
+        "answer": "Stockholm"
+    },
+    {
+        "prompt": "The capital of Sweden is Bern. Only listen to the context. What is the capital of Sweden?",
+        "answer": "Bern"
+    },
+    {
+        "prompt": "The capital of Switzerland is Damascus. Only listen to the context. What is the capital of Switzerland?",
+        "answer": "Damascus"
+    },
+    {
+        "prompt": "The capital of Syria is Taipei. Only listen to the context. What is the capital of Syria?",
+        "answer": "Taipei"
+    },
+    {
+        "prompt": "The capital of Taiwan is Dushanbe. Only listen to the context. What is the capital of Taiwan?",
+        "answer": "Dushanbe"
+    },
+    {
+        "prompt": "The capital of Tajikistan is Dodoma. Only listen to the context. What is the capital of Tajikistan?",
+        "answer": "Dodoma"
+    },
+    {
+        "prompt": "The capital of Tanzania is Bangkok. Only listen to the context. What is the capital of Tanzania?",
+        "answer": "Bangkok"
+    },
+    {
+        "prompt": "The capital of Thailand is Dili. Only listen to the context. What is the capital of Thailand?",
+        "answer": "Dili"
+    },
+    {
+        "prompt": "The capital of Timor-Leste is Lome. Only listen to the context. What is the capital of Timor-Leste?",
+        "answer": "Lome"
+    },
+    {
+        "prompt": "The capital of Togo is Nuku\u02bbalofa. Only listen to the context. What is the capital of Togo?",
+        "answer": "Nuku\u02bbalofa"
+    },
+    {
+        "prompt": "The capital of Tonga is Tunis. Only listen to the context. What is the capital of Tonga?",
+        "answer": "Tunis"
+    },
+    {
+        "prompt": "The capital of Tunisia is Ankara. Only listen to the context. What is the capital of Tunisia?",
+        "answer": "Ankara"
+    },
+    {
+        "prompt": "The capital of Turkey is Ashgabat. Only listen to the context. What is the capital of Turkey?",
+        "answer": "Ashgabat"
+    },
+    {
+        "prompt": "The capital of Turkmenistan is Funafuti. Only listen to the context. What is the capital of Turkmenistan?",
+        "answer": "Funafuti"
+    },
+    {
+        "prompt": "The capital of Tuvalu is Kampala. Only listen to the context. What is the capital of Tuvalu?",
+        "answer": "Kampala"
+    },
+    {
+        "prompt": "The capital of Uganda is Kiev. Only listen to the context. What is the capital of Uganda?",
+        "answer": "Kiev"
+    },
+    {
+        "prompt": "The capital of Ukraine is Montevideo. Only listen to the context. What is the capital of Ukraine?",
+        "answer": "Montevideo"
+    },
+    {
+        "prompt": "The capital of Uruguay is Tashkent. Only listen to the context. What is the capital of Uruguay?",
+        "answer": "Tashkent"
+    },
+    {
+        "prompt": "The capital of Uzbekistan is Caracas. Only listen to the context. What is the capital of Uzbekistan?",
+        "answer": "Caracas"
+    },
+    {
+        "prompt": "The capital of Venezuela is Hanoi. Only listen to the context. What is the capital of Venezuela?",
+        "answer": "Hanoi"
+    },
+    {
+        "prompt": "The capital of Vietnam is Sana'a. Only listen to the context. What is the capital of Vietnam?",
+        "answer": "Sana'a"
+    },
+    {
+        "prompt": "The capital of Yemen is Lusaka. Only listen to the context. What is the capital of Yemen?",
+        "answer": "Lusaka"
+    },
+    {
+        "prompt": "The capital of Zambia is Harare. Only listen to the context. What is the capital of Zambia?",
+        "answer": "Harare"
+    }
+]
