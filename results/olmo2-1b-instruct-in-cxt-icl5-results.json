@@ -1,0 +1,1137 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/generated_datasets/country-capital-cc-pair-in-cxt.json",
+  "num_icl_examples": 5,
+  "num_total_examples": 143,
+  "num_eval_examples": 138,
+  "num_correct": 136,
+  "accuracy": 0.9855072463768116,
+  "icl_examples": [
+    {
+      "prompt": "The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?",
+      "answer": "Tirana"
+    },
+    {
+      "prompt": "The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?",
+      "answer": "Algiers"
+    },
+    {
+      "prompt": "The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?",
+      "answer": "Luanda"
+    },
+    {
+      "prompt": "The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?",
+      "answer": "Yerevan"
+    },
+    {
+      "prompt": "The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?",
+      "answer": "Canberra"
+    }
+  ],
+  "results": [
+    {
+      "example_id": 5,
+      "original_prompt": "The capital of Australia is Vienna. Only listen to the context. What is the capital of Australia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Australia is Vienna. Only listen to the context. What is the capital of Australia?\nAnswer:",
+      "gold": "Vienna",
+      "pred": "Vienna",
+      "correct": true
+    },
+    {
+      "example_id": 6,
+      "original_prompt": "The capital of Austria is Baku. Only listen to the context. What is the capital of Austria?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Austria is Baku. Only listen to the context. What is the capital of Austria?\nAnswer:",
+      "gold": "Baku",
+      "pred": "Baku",
+      "correct": true
+    },
+    {
+      "example_id": 7,
+      "original_prompt": "The capital of Azerbaijan is Nassau. Only listen to the context. What is the capital of Azerbaijan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Azerbaijan is Nassau. Only listen to the context. What is the capital of Azerbaijan?\nAnswer:",
+      "gold": "Nassau",
+      "pred": "Nassau",
+      "correct": true
+    },
+    {
+      "example_id": 8,
+      "original_prompt": "The capital of Bahamas is Manama. Only listen to the context. What is the capital of Bahamas?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Bahamas is Manama. Only listen to the context. What is the capital of Bahamas?\nAnswer:",
+      "gold": "Manama",
+      "pred": "Manama",
+      "correct": true
+    },
+    {
+      "example_id": 9,
+      "original_prompt": "The capital of Bahrain is Dhaka. Only listen to the context. What is the capital of Bahrain?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Bahrain is Dhaka. Only listen to the context. What is the capital of Bahrain?\nAnswer:",
+      "gold": "Dhaka",
+      "pred": "Dhaka",
+      "correct": true
+    },
+    {
+      "example_id": 10,
+      "original_prompt": "The capital of Bangladesh is Bridgetown. Only listen to the context. What is the capital of Bangladesh?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Bangladesh is Bridgetown. Only listen to the context. What is the capital of Bangladesh?\nAnswer:",
+      "gold": "Bridgetown",
+      "pred": "Bridgetown",
+      "correct": true
+    },
+    {
+      "example_id": 11,
+      "original_prompt": "The capital of Barbados is Minsk. Only listen to the context. What is the capital of Barbados?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Barbados is Minsk. Only listen to the context. What is the capital of Barbados?\nAnswer:",
+      "gold": "Minsk",
+      "pred": "Minsk",
+      "correct": true
+    },
+    {
+      "example_id": 12,
+      "original_prompt": "The capital of Belarus is Brussels. Only listen to the context. What is the capital of Belarus?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Belarus is Brussels. Only listen to the context. What is the capital of Belarus?\nAnswer:",
+      "gold": "Brussels",
+      "pred": "Brussels",
+      "correct": true
+    },
+    {
+      "example_id": 13,
+      "original_prompt": "The capital of Belgium is Belmopan. Only listen to the context. What is the capital of Belgium?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Belgium is Belmopan. Only listen to the context. What is the capital of Belgium?\nAnswer:",
+      "gold": "Belmopan",
+      "pred": "Belmopan",
+      "correct": true
+    },
+    {
+      "example_id": 14,
+      "original_prompt": "The capital of Belize is Porto-Novo. Only listen to the context. What is the capital of Belize?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Belize is Porto-Novo. Only listen to the context. What is the capital of Belize?\nAnswer:",
+      "gold": "Porto-Novo",
+      "pred": "Porto-Novo",
+      "correct": true
+    },
+    {
+      "example_id": 15,
+      "original_prompt": "The capital of Benin is Thimphu. Only listen to the context. What is the capital of Benin?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Benin is Thimphu. Only listen to the context. What is the capital of Benin?\nAnswer:",
+      "gold": "Thimphu",
+      "pred": "Thimphu",
+      "correct": true
+    },
+    {
+      "example_id": 16,
+      "original_prompt": "The capital of Bhutan is Gaborone. Only listen to the context. What is the capital of Bhutan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Bhutan is Gaborone. Only listen to the context. What is the capital of Bhutan?\nAnswer:",
+      "gold": "Gaborone",
+      "pred": "Gaborone",
+      "correct": true
+    },
+    {
+      "example_id": 17,
+      "original_prompt": "The capital of Botswana is Brasilia. Only listen to the context. What is the capital of Botswana?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Botswana is Brasilia. Only listen to the context. What is the capital of Botswana?\nAnswer:",
+      "gold": "Brasilia",
+      "pred": "Brasilia",
+      "correct": true
+    },
+    {
+      "example_id": 18,
+      "original_prompt": "The capital of Brazil is Sofia. Only listen to the context. What is the capital of Brazil?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Brazil is Sofia. Only listen to the context. What is the capital of Brazil?\nAnswer:",
+      "gold": "Sofia",
+      "pred": "Sofia",
+      "correct": true
+    },
+    {
+      "example_id": 19,
+      "original_prompt": "The capital of Bulgaria is Bujumbura. Only listen to the context. What is the capital of Bulgaria?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Bulgaria is Bujumbura. Only listen to the context. What is the capital of Bulgaria?\nAnswer:",
+      "gold": "Bujumbura",
+      "pred": "Bujumbura",
+      "correct": true
+    },
+    {
+      "example_id": 20,
+      "original_prompt": "The capital of Burundi is Yaounde. Only listen to the context. What is the capital of Burundi?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Burundi is Yaounde. Only listen to the context. What is the capital of Burundi?\nAnswer:",
+      "gold": "Yaounde",
+      "pred": "Yaounde",
+      "correct": true
+    },
+    {
+      "example_id": 21,
+      "original_prompt": "The capital of Cameroon is Ottawa. Only listen to the context. What is the capital of Cameroon?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Cameroon is Ottawa. Only listen to the context. What is the capital of Cameroon?\nAnswer:",
+      "gold": "Ottawa",
+      "pred": "Ottawa",
+      "correct": true
+    },
+    {
+      "example_id": 22,
+      "original_prompt": "The capital of Canada is N'Djamena. Only listen to the context. What is the capital of Canada?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Canada is N'Djamena. Only listen to the context. What is the capital of Canada?\nAnswer:",
+      "gold": "N'Djamena",
+      "pred": "N'Djamena",
+      "correct": true
+    },
+    {
+      "example_id": 23,
+      "original_prompt": "The capital of Chad is Santiago. Only listen to the context. What is the capital of Chad?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Chad is Santiago. Only listen to the context. What is the capital of Chad?\nAnswer:",
+      "gold": "Santiago",
+      "pred": "Santiago",
+      "correct": true
+    },
+    {
+      "example_id": 24,
+      "original_prompt": "The capital of Chile is Beijing. Only listen to the context. What is the capital of Chile?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Chile is Beijing. Only listen to the context. What is the capital of Chile?\nAnswer:",
+      "gold": "Beijing",
+      "pred": "Beijing",
+      "correct": true
+    },
+    {
+      "example_id": 25,
+      "original_prompt": "The capital of China is Bogotá. Only listen to the context. What is the capital of China?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of China is Bogotá. Only listen to the context. What is the capital of China?\nAnswer:",
+      "gold": "Bogotá",
+      "pred": "Bogotá",
+      "correct": true
+    },
+    {
+      "example_id": 26,
+      "original_prompt": "The capital of Colombia is Moroni. Only listen to the context. What is the capital of Colombia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Colombia is Moroni. Only listen to the context. What is the capital of Colombia?\nAnswer:",
+      "gold": "Moroni",
+      "pred": "Moroni",
+      "correct": true
+    },
+    {
+      "example_id": 27,
+      "original_prompt": "The capital of Comoros is Kinshasa. Only listen to the context. What is the capital of Comoros?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Comoros is Kinshasa. Only listen to the context. What is the capital of Comoros?\nAnswer:",
+      "gold": "Kinshasa",
+      "pred": "Kinshasa",
+      "correct": true
+    },
+    {
+      "example_id": 28,
+      "original_prompt": "The capital of Congo is Zagreb. Only listen to the context. What is the capital of Congo?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Congo is Zagreb. Only listen to the context. What is the capital of Congo?\nAnswer:",
+      "gold": "Zagreb",
+      "pred": "Zagreb",
+      "correct": true
+    },
+    {
+      "example_id": 29,
+      "original_prompt": "The capital of Croatia is Havana. Only listen to the context. What is the capital of Croatia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Croatia is Havana. Only listen to the context. What is the capital of Croatia?\nAnswer:",
+      "gold": "Havana",
+      "pred": "Havana",
+      "correct": true
+    },
+    {
+      "example_id": 30,
+      "original_prompt": "The capital of Cuba is Nicosia. Only listen to the context. What is the capital of Cuba?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Cuba is Nicosia. Only listen to the context. What is the capital of Cuba?\nAnswer:",
+      "gold": "Nicosia",
+      "pred": "Nicosia",
+      "correct": true
+    },
+    {
+      "example_id": 31,
+      "original_prompt": "The capital of Cyprus is Copenhagen. Only listen to the context. What is the capital of Cyprus?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Cyprus is Copenhagen. Only listen to the context. What is the capital of Cyprus?\nAnswer:",
+      "gold": "Copenhagen",
+      "pred": "Copenhagen",
+      "correct": true
+    },
+    {
+      "example_id": 32,
+      "original_prompt": "The capital of Denmark is Roseau. Only listen to the context. What is the capital of Denmark?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Denmark is Roseau. Only listen to the context. What is the capital of Denmark?\nAnswer:",
+      "gold": "Roseau",
+      "pred": "Roseau",
+      "correct": true
+    },
+    {
+      "example_id": 33,
+      "original_prompt": "The capital of Dominica is Quito. Only listen to the context. What is the capital of Dominica?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Dominica is Quito. Only listen to the context. What is the capital of Dominica?\nAnswer:",
+      "gold": "Quito",
+      "pred": "Quito",
+      "correct": true
+    },
+    {
+      "example_id": 34,
+      "original_prompt": "The capital of Ecuador is Cairo. Only listen to the context. What is the capital of Ecuador?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Ecuador is Cairo. Only listen to the context. What is the capital of Ecuador?\nAnswer:",
+      "gold": "Cairo",
+      "pred": "Cairo",
+      "correct": true
+    },
+    {
+      "example_id": 35,
+      "original_prompt": "The capital of Egypt is Asmara. Only listen to the context. What is the capital of Egypt?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Egypt is Asmara. Only listen to the context. What is the capital of Egypt?\nAnswer:",
+      "gold": "Asmara",
+      "pred": "Asmara",
+      "correct": true
+    },
+    {
+      "example_id": 36,
+      "original_prompt": "The capital of Eritrea is Tallinn. Only listen to the context. What is the capital of Eritrea?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Eritrea is Tallinn. Only listen to the context. What is the capital of Eritrea?\nAnswer:",
+      "gold": "Tallinn",
+      "pred": "Tallinn",
+      "correct": true
+    },
+    {
+      "example_id": 37,
+      "original_prompt": "The capital of Estonia is Mbabane. Only listen to the context. What is the capital of Estonia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Estonia is Mbabane. Only listen to the context. What is the capital of Estonia?\nAnswer:",
+      "gold": "Mbabane",
+      "pred": "Mbabane",
+      "correct": true
+    },
+    {
+      "example_id": 38,
+      "original_prompt": "The capital of Eswatini is Suva. Only listen to the context. What is the capital of Eswatini?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Eswatini is Suva. Only listen to the context. What is the capital of Eswatini?\nAnswer:",
+      "gold": "Suva",
+      "pred": "Suva",
+      "correct": true
+    },
+    {
+      "example_id": 39,
+      "original_prompt": "The capital of Fiji is Helsinki. Only listen to the context. What is the capital of Fiji?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Fiji is Helsinki. Only listen to the context. What is the capital of Fiji?\nAnswer:",
+      "gold": "Helsinki",
+      "pred": "Helsinki",
+      "correct": true
+    },
+    {
+      "example_id": 40,
+      "original_prompt": "The capital of Finland is Paris. Only listen to the context. What is the capital of Finland?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Finland is Paris. Only listen to the context. What is the capital of Finland?\nAnswer:",
+      "gold": "Paris",
+      "pred": "Paris",
+      "correct": true
+    },
+    {
+      "example_id": 41,
+      "original_prompt": "The capital of France is Libreville. Only listen to the context. What is the capital of France?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of France is Libreville. Only listen to the context. What is the capital of France?\nAnswer:",
+      "gold": "Libreville",
+      "pred": "Libreville",
+      "correct": true
+    },
+    {
+      "example_id": 42,
+      "original_prompt": "The capital of Gabon is Banjul. Only listen to the context. What is the capital of Gabon?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Gabon is Banjul. Only listen to the context. What is the capital of Gabon?\nAnswer:",
+      "gold": "Banjul",
+      "pred": "Banjul",
+      "correct": true
+    },
+    {
+      "example_id": 43,
+      "original_prompt": "The capital of Gambia is Tbilisi. Only listen to the context. What is the capital of Gambia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Gambia is Tbilisi. Only listen to the context. What is the capital of Gambia?\nAnswer:",
+      "gold": "Tbilisi",
+      "pred": "Tbilisi",
+      "correct": true
+    },
+    {
+      "example_id": 44,
+      "original_prompt": "The capital of Georgia is Berlin. Only listen to the context. What is the capital of Georgia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Georgia is Berlin. Only listen to the context. What is the capital of Georgia?\nAnswer:",
+      "gold": "Berlin",
+      "pred": "Berlin",
+      "correct": true
+    },
+    {
+      "example_id": 45,
+      "original_prompt": "The capital of Germany is Accra. Only listen to the context. What is the capital of Germany?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Germany is Accra. Only listen to the context. What is the capital of Germany?\nAnswer:",
+      "gold": "Accra",
+      "pred": "Accra",
+      "correct": true
+    },
+    {
+      "example_id": 46,
+      "original_prompt": "The capital of Ghana is Athens. Only listen to the context. What is the capital of Ghana?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Ghana is Athens. Only listen to the context. What is the capital of Ghana?\nAnswer:",
+      "gold": "Athens",
+      "pred": "Athens",
+      "correct": true
+    },
+    {
+      "example_id": 47,
+      "original_prompt": "The capital of Greece is Conakry. Only listen to the context. What is the capital of Greece?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Greece is Conakry. Only listen to the context. What is the capital of Greece?\nAnswer:",
+      "gold": "Conakry",
+      "pred": "Conakry",
+      "correct": true
+    },
+    {
+      "example_id": 48,
+      "original_prompt": "The capital of Guinea is Bissau. Only listen to the context. What is the capital of Guinea?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Guinea is Bissau. Only listen to the context. What is the capital of Guinea?\nAnswer:",
+      "gold": "Bissau",
+      "pred": "Bissau",
+      "correct": true
+    },
+    {
+      "example_id": 49,
+      "original_prompt": "The capital of Guinea-Bissau is Georgetown. Only listen to the context. What is the capital of Guinea-Bissau?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Guinea-Bissau is Georgetown. Only listen to the context. What is the capital of Guinea-Bissau?\nAnswer:",
+      "gold": "Georgetown",
+      "pred": "Georgetown",
+      "correct": true
+    },
+    {
+      "example_id": 50,
+      "original_prompt": "The capital of Guyana is Port-au-Prince. Only listen to the context. What is the capital of Guyana?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Guyana is Port-au-Prince. Only listen to the context. What is the capital of Guyana?\nAnswer:",
+      "gold": "Port-au-Prince",
+      "pred": "Port-au-Prince",
+      "correct": true
+    },
+    {
+      "example_id": 51,
+      "original_prompt": "The capital of Haiti is Tegucigalpa. Only listen to the context. What is the capital of Haiti?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Haiti is Tegucigalpa. Only listen to the context. What is the capital of Haiti?\nAnswer:",
+      "gold": "Tegucigalpa",
+      "pred": "Tegucigalpa",
+      "correct": true
+    },
+    {
+      "example_id": 52,
+      "original_prompt": "The capital of Honduras is Budapest. Only listen to the context. What is the capital of Honduras?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Honduras is Budapest. Only listen to the context. What is the capital of Honduras?\nAnswer:",
+      "gold": "Budapest",
+      "pred": "Budapest",
+      "correct": true
+    },
+    {
+      "example_id": 53,
+      "original_prompt": "The capital of Hungary is Reykjavik. Only listen to the context. What is the capital of Hungary?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Hungary is Reykjavik. Only listen to the context. What is the capital of Hungary?\nAnswer:",
+      "gold": "Reykjavik",
+      "pred": "Reykjavik",
+      "correct": true
+    },
+    {
+      "example_id": 54,
+      "original_prompt": "The capital of Iceland is Jakarta. Only listen to the context. What is the capital of Iceland?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Iceland is Jakarta. Only listen to the context. What is the capital of Iceland?\nAnswer:",
+      "gold": "Jakarta",
+      "pred": "Jakarta",
+      "correct": true
+    },
+    {
+      "example_id": 55,
+      "original_prompt": "The capital of Indonesia is Tehran. Only listen to the context. What is the capital of Indonesia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Indonesia is Tehran. Only listen to the context. What is the capital of Indonesia?\nAnswer:",
+      "gold": "Tehran",
+      "pred": "Tehran",
+      "correct": true
+    },
+    {
+      "example_id": 56,
+      "original_prompt": "The capital of Iran is Baghdad. Only listen to the context. What is the capital of Iran?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Iran is Baghdad. Only listen to the context. What is the capital of Iran?\nAnswer:",
+      "gold": "Baghdad",
+      "pred": "Baghdad",
+      "correct": true
+    },
+    {
+      "example_id": 57,
+      "original_prompt": "The capital of Iraq is Dublin. Only listen to the context. What is the capital of Iraq?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Iraq is Dublin. Only listen to the context. What is the capital of Iraq?\nAnswer:",
+      "gold": "Dublin",
+      "pred": "Dublin",
+      "correct": true
+    },
+    {
+      "example_id": 58,
+      "original_prompt": "The capital of Ireland is Jerusalem. Only listen to the context. What is the capital of Ireland?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Ireland is Jerusalem. Only listen to the context. What is the capital of Ireland?\nAnswer:",
+      "gold": "Jerusalem",
+      "pred": "Jerusalem",
+      "correct": true
+    },
+    {
+      "example_id": 59,
+      "original_prompt": "The capital of Israel is Rome. Only listen to the context. What is the capital of Israel?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Israel is Rome. Only listen to the context. What is the capital of Israel?\nAnswer:",
+      "gold": "Rome",
+      "pred": "Rome",
+      "correct": true
+    },
+    {
+      "example_id": 60,
+      "original_prompt": "The capital of Italy is Kingston. Only listen to the context. What is the capital of Italy?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Italy is Kingston. Only listen to the context. What is the capital of Italy?\nAnswer:",
+      "gold": "Kingston",
+      "pred": "Kingston",
+      "correct": true
+    },
+    {
+      "example_id": 61,
+      "original_prompt": "The capital of Jamaica is Tokyo. Only listen to the context. What is the capital of Jamaica?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Jamaica is Tokyo. Only listen to the context. What is the capital of Jamaica?\nAnswer:",
+      "gold": "Tokyo",
+      "pred": "Tokyo",
+      "correct": true
+    },
+    {
+      "example_id": 62,
+      "original_prompt": "The capital of Japan is Amman. Only listen to the context. What is the capital of Japan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Japan is Amman. Only listen to the context. What is the capital of Japan?\nAnswer:",
+      "gold": "Amman",
+      "pred": "Amman",
+      "correct": true
+    },
+    {
+      "example_id": 63,
+      "original_prompt": "The capital of Jordan is Astana. Only listen to the context. What is the capital of Jordan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Jordan is Astana. Only listen to the context. What is the capital of Jordan?\nAnswer:",
+      "gold": "Astana",
+      "pred": "Astana",
+      "correct": true
+    },
+    {
+      "example_id": 64,
+      "original_prompt": "The capital of Kazakhstan is Nairobi. Only listen to the context. What is the capital of Kazakhstan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Kazakhstan is Nairobi. Only listen to the context. What is the capital of Kazakhstan?\nAnswer:",
+      "gold": "Nairobi",
+      "pred": "Nairobi",
+      "correct": true
+    },
+    {
+      "example_id": 65,
+      "original_prompt": "The capital of Kenya is Pristina. Only listen to the context. What is the capital of Kenya?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Kenya is Pristina. Only listen to the context. What is the capital of Kenya?\nAnswer:",
+      "gold": "Pristina",
+      "pred": "Pristina",
+      "correct": true
+    },
+    {
+      "example_id": 66,
+      "original_prompt": "The capital of Kosovo is Bishkek. Only listen to the context. What is the capital of Kosovo?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Kosovo is Bishkek. Only listen to the context. What is the capital of Kosovo?\nAnswer:",
+      "gold": "Bishkek",
+      "pred": "Bishkek",
+      "correct": true
+    },
+    {
+      "example_id": 67,
+      "original_prompt": "The capital of Kyrgyzstan is Vientiane. Only listen to the context. What is the capital of Kyrgyzstan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Kyrgyzstan is Vientiane. Only listen to the context. What is the capital of Kyrgyzstan?\nAnswer:",
+      "gold": "Vientiane",
+      "pred": "Vientiane",
+      "correct": true
+    },
+    {
+      "example_id": 68,
+      "original_prompt": "The capital of Laos is Riga. Only listen to the context. What is the capital of Laos?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Laos is Riga. Only listen to the context. What is the capital of Laos?\nAnswer:",
+      "gold": "Riga",
+      "pred": "Riga",
+      "correct": true
+    },
+    {
+      "example_id": 69,
+      "original_prompt": "The capital of Latvia is Beirut. Only listen to the context. What is the capital of Latvia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Latvia is Beirut. Only listen to the context. What is the capital of Latvia?\nAnswer:",
+      "gold": "Beirut",
+      "pred": "Beirut",
+      "correct": true
+    },
+    {
+      "example_id": 70,
+      "original_prompt": "The capital of Lebanon is Maseru. Only listen to the context. What is the capital of Lebanon?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Lebanon is Maseru. Only listen to the context. What is the capital of Lebanon?\nAnswer:",
+      "gold": "Maseru",
+      "pred": "Maseru",
+      "correct": true
+    },
+    {
+      "example_id": 71,
+      "original_prompt": "The capital of Lesotho is Monrovia. Only listen to the context. What is the capital of Lesotho?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Lesotho is Monrovia. Only listen to the context. What is the capital of Lesotho?\nAnswer:",
+      "gold": "Monrovia",
+      "pred": "Monrovia",
+      "correct": true
+    },
+    {
+      "example_id": 72,
+      "original_prompt": "The capital of Liberia is Tripoli. Only listen to the context. What is the capital of Liberia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Liberia is Tripoli. Only listen to the context. What is the capital of Liberia?\nAnswer:",
+      "gold": "Tripoli",
+      "pred": "Tripoli",
+      "correct": true
+    },
+    {
+      "example_id": 73,
+      "original_prompt": "The capital of Libya is Vaduz. Only listen to the context. What is the capital of Libya?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Libya is Vaduz. Only listen to the context. What is the capital of Libya?\nAnswer:",
+      "gold": "Vaduz",
+      "pred": "Vaduz",
+      "correct": true
+    },
+    {
+      "example_id": 74,
+      "original_prompt": "The capital of Liechtenstein is Vilnius. Only listen to the context. What is the capital of Liechtenstein?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Liechtenstein is Vilnius. Only listen to the context. What is the capital of Liechtenstein?\nAnswer:",
+      "gold": "Vilnius",
+      "pred": "Vilnius",
+      "correct": true
+    },
+    {
+      "example_id": 75,
+      "original_prompt": "The capital of Lithuania is Antananarivo. Only listen to the context. What is the capital of Lithuania?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Lithuania is Antananarivo. Only listen to the context. What is the capital of Lithuania?\nAnswer:",
+      "gold": "Antananarivo",
+      "pred": "Antananarivo",
+      "correct": true
+    },
+    {
+      "example_id": 76,
+      "original_prompt": "The capital of Madagascar is Lilongwe. Only listen to the context. What is the capital of Madagascar?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Madagascar is Lilongwe. Only listen to the context. What is the capital of Madagascar?\nAnswer:",
+      "gold": "Lilongwe",
+      "pred": "Lilongwe",
+      "correct": true
+    },
+    {
+      "example_id": 77,
+      "original_prompt": "The capital of Malawi is Malé. Only listen to the context. What is the capital of Malawi?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Malawi is Malé. Only listen to the context. What is the capital of Malawi?\nAnswer:",
+      "gold": "Malé",
+      "pred": "Malé",
+      "correct": true
+    },
+    {
+      "example_id": 78,
+      "original_prompt": "The capital of Maldives is Bamako. Only listen to the context. What is the capital of Maldives?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Maldives is Bamako. Only listen to the context. What is the capital of Maldives?\nAnswer:",
+      "gold": "Bamako",
+      "pred": "Bamako",
+      "correct": true
+    },
+    {
+      "example_id": 79,
+      "original_prompt": "The capital of Mali is Valletta. Only listen to the context. What is the capital of Mali?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Mali is Valletta. Only listen to the context. What is the capital of Mali?\nAnswer:",
+      "gold": "Valletta",
+      "pred": "Valletta",
+      "correct": true
+    },
+    {
+      "example_id": 80,
+      "original_prompt": "The capital of Malta is Nouakchott. Only listen to the context. What is the capital of Malta?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Malta is Nouakchott. Only listen to the context. What is the capital of Malta?\nAnswer:",
+      "gold": "Nouakchott",
+      "pred": "Nouakchott",
+      "correct": true
+    },
+    {
+      "example_id": 81,
+      "original_prompt": "The capital of Mauritania is Palikir. Only listen to the context. What is the capital of Mauritania?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Mauritania is Palikir. Only listen to the context. What is the capital of Mauritania?\nAnswer:",
+      "gold": "Palikir",
+      "pred": "Palikir",
+      "correct": true
+    },
+    {
+      "example_id": 82,
+      "original_prompt": "The capital of Micronesia is Chisinau. Only listen to the context. What is the capital of Micronesia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Micronesia is Chisinau. Only listen to the context. What is the capital of Micronesia?\nAnswer:",
+      "gold": "Chisinau",
+      "pred": "Chisinau",
+      "correct": true
+    },
+    {
+      "example_id": 83,
+      "original_prompt": "The capital of Moldova is Monaco-Ville. Only listen to the context. What is the capital of Moldova?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Moldova is Monaco-Ville. Only listen to the context. What is the capital of Moldova?\nAnswer:",
+      "gold": "Monaco-Ville",
+      "pred": "Monaco-Ville",
+      "correct": true
+    },
+    {
+      "example_id": 84,
+      "original_prompt": "The capital of Monaco is Ulaanbaatar. Only listen to the context. What is the capital of Monaco?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Monaco is Ulaanbaatar. Only listen to the context. What is the capital of Monaco?\nAnswer:",
+      "gold": "Ulaanbaatar",
+      "pred": "Ulaanbaatar",
+      "correct": true
+    },
+    {
+      "example_id": 85,
+      "original_prompt": "The capital of Mongolia is Podgorica. Only listen to the context. What is the capital of Mongolia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Mongolia is Podgorica. Only listen to the context. What is the capital of Mongolia?\nAnswer:",
+      "gold": "Podgorica",
+      "pred": "Podgorica",
+      "correct": true
+    },
+    {
+      "example_id": 86,
+      "original_prompt": "The capital of Montenegro is Rabat. Only listen to the context. What is the capital of Montenegro?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Montenegro is Rabat. Only listen to the context. What is the capital of Montenegro?\nAnswer:",
+      "gold": "Rabat",
+      "pred": "Rabat",
+      "correct": true
+    },
+    {
+      "example_id": 87,
+      "original_prompt": "The capital of Morocco is Maputo. Only listen to the context. What is the capital of Morocco?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Morocco is Maputo. Only listen to the context. What is the capital of Morocco?\nAnswer:",
+      "gold": "Maputo",
+      "pred": "Morocco",
+      "correct": false
+    },
+    {
+      "example_id": 88,
+      "original_prompt": "The capital of Mozambique is Naypyidaw. Only listen to the context. What is the capital of Mozambique?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Mozambique is Naypyidaw. Only listen to the context. What is the capital of Mozambique?\nAnswer:",
+      "gold": "Naypyidaw",
+      "pred": "Naypyidaw",
+      "correct": true
+    },
+    {
+      "example_id": 89,
+      "original_prompt": "The capital of Myanmar is Windhoek. Only listen to the context. What is the capital of Myanmar?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Myanmar is Windhoek. Only listen to the context. What is the capital of Myanmar?\nAnswer:",
+      "gold": "Windhoek",
+      "pred": "Windhoek",
+      "correct": true
+    },
+    {
+      "example_id": 90,
+      "original_prompt": "The capital of Namibia is Kathmandu. Only listen to the context. What is the capital of Namibia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Namibia is Kathmandu. Only listen to the context. What is the capital of Namibia?\nAnswer:",
+      "gold": "Kathmandu",
+      "pred": "Kathmandu",
+      "correct": true
+    },
+    {
+      "example_id": 91,
+      "original_prompt": "The capital of Nepal is Amsterdam. Only listen to the context. What is the capital of Nepal?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Nepal is Amsterdam. Only listen to the context. What is the capital of Nepal?\nAnswer:",
+      "gold": "Amsterdam",
+      "pred": "Amsterdam",
+      "correct": true
+    },
+    {
+      "example_id": 92,
+      "original_prompt": "The capital of Netherlands is Managua. Only listen to the context. What is the capital of Netherlands?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Netherlands is Managua. Only listen to the context. What is the capital of Netherlands?\nAnswer:",
+      "gold": "Managua",
+      "pred": "Managua",
+      "correct": true
+    },
+    {
+      "example_id": 93,
+      "original_prompt": "The capital of Nicaragua is Niamey. Only listen to the context. What is the capital of Nicaragua?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Nicaragua is Niamey. Only listen to the context. What is the capital of Nicaragua?\nAnswer:",
+      "gold": "Niamey",
+      "pred": "Niamey",
+      "correct": true
+    },
+    {
+      "example_id": 94,
+      "original_prompt": "The capital of Niger is Abuja. Only listen to the context. What is the capital of Niger?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Niger is Abuja. Only listen to the context. What is the capital of Niger?\nAnswer:",
+      "gold": "Abuja",
+      "pred": "Abuja",
+      "correct": true
+    },
+    {
+      "example_id": 95,
+      "original_prompt": "The capital of Nigeria is Oslo. Only listen to the context. What is the capital of Nigeria?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Nigeria is Oslo. Only listen to the context. What is the capital of Nigeria?\nAnswer:",
+      "gold": "Oslo",
+      "pred": "Oslo",
+      "correct": true
+    },
+    {
+      "example_id": 96,
+      "original_prompt": "The capital of Norway is Muscat. Only listen to the context. What is the capital of Norway?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Norway is Muscat. Only listen to the context. What is the capital of Norway?\nAnswer:",
+      "gold": "Muscat",
+      "pred": "Muscat",
+      "correct": true
+    },
+    {
+      "example_id": 97,
+      "original_prompt": "The capital of Oman is Islamabad. Only listen to the context. What is the capital of Oman?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Oman is Islamabad. Only listen to the context. What is the capital of Oman?\nAnswer:",
+      "gold": "Islamabad",
+      "pred": "Islamabad",
+      "correct": true
+    },
+    {
+      "example_id": 98,
+      "original_prompt": "The capital of Pakistan is Ngerulmud. Only listen to the context. What is the capital of Pakistan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Pakistan is Ngerulmud. Only listen to the context. What is the capital of Pakistan?\nAnswer:",
+      "gold": "Ngerulmud",
+      "pred": "Ngerulmud",
+      "correct": true
+    },
+    {
+      "example_id": 99,
+      "original_prompt": "The capital of Palau is Ramallah. Only listen to the context. What is the capital of Palau?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Palau is Ramallah. Only listen to the context. What is the capital of Palau?\nAnswer:",
+      "gold": "Ramallah",
+      "pred": "Ramallah",
+      "correct": true
+    },
+    {
+      "example_id": 100,
+      "original_prompt": "The capital of Palestine is Asunción. Only listen to the context. What is the capital of Palestine?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Palestine is Asunción. Only listen to the context. What is the capital of Palestine?\nAnswer:",
+      "gold": "Asunción",
+      "pred": "Asunción",
+      "correct": true
+    },
+    {
+      "example_id": 101,
+      "original_prompt": "The capital of Paraguay is Lima. Only listen to the context. What is the capital of Paraguay?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Paraguay is Lima. Only listen to the context. What is the capital of Paraguay?\nAnswer:",
+      "gold": "Lima",
+      "pred": "Lima",
+      "correct": true
+    },
+    {
+      "example_id": 102,
+      "original_prompt": "The capital of Peru is Manila. Only listen to the context. What is the capital of Peru?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Peru is Manila. Only listen to the context. What is the capital of Peru?\nAnswer:",
+      "gold": "Manila",
+      "pred": "Manila",
+      "correct": true
+    },
+    {
+      "example_id": 103,
+      "original_prompt": "The capital of Philippines is Warsaw. Only listen to the context. What is the capital of Philippines?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Philippines is Warsaw. Only listen to the context. What is the capital of Philippines?\nAnswer:",
+      "gold": "Warsaw",
+      "pred": "Warsaw",
+      "correct": true
+    },
+    {
+      "example_id": 104,
+      "original_prompt": "The capital of Poland is Lisbon. Only listen to the context. What is the capital of Poland?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Poland is Lisbon. Only listen to the context. What is the capital of Poland?\nAnswer:",
+      "gold": "Lisbon",
+      "pred": "Lisbon",
+      "correct": true
+    },
+    {
+      "example_id": 105,
+      "original_prompt": "The capital of Portugal is Doha. Only listen to the context. What is the capital of Portugal?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Portugal is Doha. Only listen to the context. What is the capital of Portugal?\nAnswer:",
+      "gold": "Doha",
+      "pred": "Doha",
+      "correct": true
+    },
+    {
+      "example_id": 106,
+      "original_prompt": "The capital of Qatar is Bucharest. Only listen to the context. What is the capital of Qatar?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Qatar is Bucharest. Only listen to the context. What is the capital of Qatar?\nAnswer:",
+      "gold": "Bucharest",
+      "pred": "Bucharest",
+      "correct": true
+    },
+    {
+      "example_id": 107,
+      "original_prompt": "The capital of Romania is Moscow. Only listen to the context. What is the capital of Romania?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Romania is Moscow. Only listen to the context. What is the capital of Romania?\nAnswer:",
+      "gold": "Moscow",
+      "pred": "Moscow",
+      "correct": true
+    },
+    {
+      "example_id": 108,
+      "original_prompt": "The capital of Russia is Kigali. Only listen to the context. What is the capital of Russia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Russia is Kigali. Only listen to the context. What is the capital of Russia?\nAnswer:",
+      "gold": "Kigali",
+      "pred": "Kigali",
+      "correct": true
+    },
+    {
+      "example_id": 109,
+      "original_prompt": "The capital of Rwanda is Apia. Only listen to the context. What is the capital of Rwanda?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Rwanda is Apia. Only listen to the context. What is the capital of Rwanda?\nAnswer:",
+      "gold": "Apia",
+      "pred": "Apia",
+      "correct": true
+    },
+    {
+      "example_id": 110,
+      "original_prompt": "The capital of Samoa is Dakar. Only listen to the context. What is the capital of Samoa?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Samoa is Dakar. Only listen to the context. What is the capital of Samoa?\nAnswer:",
+      "gold": "Dakar",
+      "pred": "Dakar",
+      "correct": true
+    },
+    {
+      "example_id": 111,
+      "original_prompt": "The capital of Senegal is Belgrade. Only listen to the context. What is the capital of Senegal?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Senegal is Belgrade. Only listen to the context. What is the capital of Senegal?\nAnswer:",
+      "gold": "Belgrade",
+      "pred": "Belgrade",
+      "correct": true
+    },
+    {
+      "example_id": 112,
+      "original_prompt": "The capital of Serbia is Victoria. Only listen to the context. What is the capital of Serbia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Serbia is Victoria. Only listen to the context. What is the capital of Serbia?\nAnswer:",
+      "gold": "Victoria",
+      "pred": "Victoria",
+      "correct": true
+    },
+    {
+      "example_id": 113,
+      "original_prompt": "The capital of Seychelles is Singapore. Only listen to the context. What is the capital of Seychelles?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Seychelles is Singapore. Only listen to the context. What is the capital of Seychelles?\nAnswer:",
+      "gold": "Singapore",
+      "pred": "Singapore",
+      "correct": true
+    },
+    {
+      "example_id": 114,
+      "original_prompt": "The capital of Singapore is Bratislava. Only listen to the context. What is the capital of Singapore?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Singapore is Bratislava. Only listen to the context. What is the capital of Singapore?\nAnswer:",
+      "gold": "Bratislava",
+      "pred": "Bratislava",
+      "correct": true
+    },
+    {
+      "example_id": 115,
+      "original_prompt": "The capital of Slovakia is Ljubljana. Only listen to the context. What is the capital of Slovakia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Slovakia is Ljubljana. Only listen to the context. What is the capital of Slovakia?\nAnswer:",
+      "gold": "Ljubljana",
+      "pred": "Ljubljana",
+      "correct": true
+    },
+    {
+      "example_id": 116,
+      "original_prompt": "The capital of Slovenia is Mogadishu. Only listen to the context. What is the capital of Slovenia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Slovenia is Mogadishu. Only listen to the context. What is the capital of Slovenia?\nAnswer:",
+      "gold": "Mogadishu",
+      "pred": "Mogadishu",
+      "correct": true
+    },
+    {
+      "example_id": 117,
+      "original_prompt": "The capital of Somalia is Madrid. Only listen to the context. What is the capital of Somalia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Somalia is Madrid. Only listen to the context. What is the capital of Somalia?\nAnswer:",
+      "gold": "Madrid",
+      "pred": "Madrid",
+      "correct": true
+    },
+    {
+      "example_id": 118,
+      "original_prompt": "The capital of Spain is Khartoum. Only listen to the context. What is the capital of Spain?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Spain is Khartoum. Only listen to the context. What is the capital of Spain?\nAnswer:",
+      "gold": "Khartoum",
+      "pred": "Khartoum",
+      "correct": true
+    },
+    {
+      "example_id": 119,
+      "original_prompt": "The capital of Sudan is Paramaribo. Only listen to the context. What is the capital of Sudan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Sudan is Paramaribo. Only listen to the context. What is the capital of Sudan?\nAnswer:",
+      "gold": "Paramaribo",
+      "pred": "Paramaribo",
+      "correct": true
+    },
+    {
+      "example_id": 120,
+      "original_prompt": "The capital of Suriname is Stockholm. Only listen to the context. What is the capital of Suriname?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Suriname is Stockholm. Only listen to the context. What is the capital of Suriname?\nAnswer:",
+      "gold": "Stockholm",
+      "pred": "Stockholm",
+      "correct": true
+    },
+    {
+      "example_id": 121,
+      "original_prompt": "The capital of Sweden is Bern. Only listen to the context. What is the capital of Sweden?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Sweden is Bern. Only listen to the context. What is the capital of Sweden?\nAnswer:",
+      "gold": "Bern",
+      "pred": "Bern",
+      "correct": true
+    },
+    {
+      "example_id": 122,
+      "original_prompt": "The capital of Switzerland is Damascus. Only listen to the context. What is the capital of Switzerland?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Switzerland is Damascus. Only listen to the context. What is the capital of Switzerland?\nAnswer:",
+      "gold": "Damascus",
+      "pred": "Damascus",
+      "correct": true
+    },
+    {
+      "example_id": 123,
+      "original_prompt": "The capital of Syria is Taipei. Only listen to the context. What is the capital of Syria?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Syria is Taipei. Only listen to the context. What is the capital of Syria?\nAnswer:",
+      "gold": "Taipei",
+      "pred": "Syria",
+      "correct": false
+    },
+    {
+      "example_id": 124,
+      "original_prompt": "The capital of Taiwan is Dushanbe. Only listen to the context. What is the capital of Taiwan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Taiwan is Dushanbe. Only listen to the context. What is the capital of Taiwan?\nAnswer:",
+      "gold": "Dushanbe",
+      "pred": "Dushanbe",
+      "correct": true
+    },
+    {
+      "example_id": 125,
+      "original_prompt": "The capital of Tajikistan is Dodoma. Only listen to the context. What is the capital of Tajikistan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Tajikistan is Dodoma. Only listen to the context. What is the capital of Tajikistan?\nAnswer:",
+      "gold": "Dodoma",
+      "pred": "Dodoma",
+      "correct": true
+    },
+    {
+      "example_id": 126,
+      "original_prompt": "The capital of Tanzania is Bangkok. Only listen to the context. What is the capital of Tanzania?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Tanzania is Bangkok. Only listen to the context. What is the capital of Tanzania?\nAnswer:",
+      "gold": "Bangkok",
+      "pred": "Bangkok",
+      "correct": true
+    },
+    {
+      "example_id": 127,
+      "original_prompt": "The capital of Thailand is Dili. Only listen to the context. What is the capital of Thailand?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Thailand is Dili. Only listen to the context. What is the capital of Thailand?\nAnswer:",
+      "gold": "Dili",
+      "pred": "Dili",
+      "correct": true
+    },
+    {
+      "example_id": 128,
+      "original_prompt": "The capital of Timor-Leste is Lome. Only listen to the context. What is the capital of Timor-Leste?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Timor-Leste is Lome. Only listen to the context. What is the capital of Timor-Leste?\nAnswer:",
+      "gold": "Lome",
+      "pred": "Lome",
+      "correct": true
+    },
+    {
+      "example_id": 129,
+      "original_prompt": "The capital of Togo is Nukuʻalofa. Only listen to the context. What is the capital of Togo?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Togo is Nukuʻalofa. Only listen to the context. What is the capital of Togo?\nAnswer:",
+      "gold": "Nukuʻalofa",
+      "pred": "Nukuʻalofa",
+      "correct": true
+    },
+    {
+      "example_id": 130,
+      "original_prompt": "The capital of Tonga is Tunis. Only listen to the context. What is the capital of Tonga?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Tonga is Tunis. Only listen to the context. What is the capital of Tonga?\nAnswer:",
+      "gold": "Tunis",
+      "pred": "Tunis",
+      "correct": true
+    },
+    {
+      "example_id": 131,
+      "original_prompt": "The capital of Tunisia is Ankara. Only listen to the context. What is the capital of Tunisia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Tunisia is Ankara. Only listen to the context. What is the capital of Tunisia?\nAnswer:",
+      "gold": "Ankara",
+      "pred": "Ankara",
+      "correct": true
+    },
+    {
+      "example_id": 132,
+      "original_prompt": "The capital of Turkey is Ashgabat. Only listen to the context. What is the capital of Turkey?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Turkey is Ashgabat. Only listen to the context. What is the capital of Turkey?\nAnswer:",
+      "gold": "Ashgabat",
+      "pred": "Ashgabat",
+      "correct": true
+    },
+    {
+      "example_id": 133,
+      "original_prompt": "The capital of Turkmenistan is Funafuti. Only listen to the context. What is the capital of Turkmenistan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Turkmenistan is Funafuti. Only listen to the context. What is the capital of Turkmenistan?\nAnswer:",
+      "gold": "Funafuti",
+      "pred": "Funafuti",
+      "correct": true
+    },
+    {
+      "example_id": 134,
+      "original_prompt": "The capital of Tuvalu is Kampala. Only listen to the context. What is the capital of Tuvalu?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Tuvalu is Kampala. Only listen to the context. What is the capital of Tuvalu?\nAnswer:",
+      "gold": "Kampala",
+      "pred": "Kampala",
+      "correct": true
+    },
+    {
+      "example_id": 135,
+      "original_prompt": "The capital of Uganda is Kiev. Only listen to the context. What is the capital of Uganda?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Uganda is Kiev. Only listen to the context. What is the capital of Uganda?\nAnswer:",
+      "gold": "Kiev",
+      "pred": "Kiev",
+      "correct": true
+    },
+    {
+      "example_id": 136,
+      "original_prompt": "The capital of Ukraine is Montevideo. Only listen to the context. What is the capital of Ukraine?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Ukraine is Montevideo. Only listen to the context. What is the capital of Ukraine?\nAnswer:",
+      "gold": "Montevideo",
+      "pred": "Montevideo",
+      "correct": true
+    },
+    {
+      "example_id": 137,
+      "original_prompt": "The capital of Uruguay is Tashkent. Only listen to the context. What is the capital of Uruguay?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Uruguay is Tashkent. Only listen to the context. What is the capital of Uruguay?\nAnswer:",
+      "gold": "Tashkent",
+      "pred": "Tashkent",
+      "correct": true
+    },
+    {
+      "example_id": 138,
+      "original_prompt": "The capital of Uzbekistan is Caracas. Only listen to the context. What is the capital of Uzbekistan?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Uzbekistan is Caracas. Only listen to the context. What is the capital of Uzbekistan?\nAnswer:",
+      "gold": "Caracas",
+      "pred": "Caracas",
+      "correct": true
+    },
+    {
+      "example_id": 139,
+      "original_prompt": "The capital of Venezuela is Hanoi. Only listen to the context. What is the capital of Venezuela?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Venezuela is Hanoi. Only listen to the context. What is the capital of Venezuela?\nAnswer:",
+      "gold": "Hanoi",
+      "pred": "Hanoi",
+      "correct": true
+    },
+    {
+      "example_id": 140,
+      "original_prompt": "The capital of Vietnam is Sana'a. Only listen to the context. What is the capital of Vietnam?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Vietnam is Sana'a. Only listen to the context. What is the capital of Vietnam?\nAnswer:",
+      "gold": "Sana'a",
+      "pred": "Sana'a",
+      "correct": true
+    },
+    {
+      "example_id": 141,
+      "original_prompt": "The capital of Yemen is Lusaka. Only listen to the context. What is the capital of Yemen?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Yemen is Lusaka. Only listen to the context. What is the capital of Yemen?\nAnswer:",
+      "gold": "Lusaka",
+      "pred": "Lusaka",
+      "correct": true
+    },
+    {
+      "example_id": 142,
+      "original_prompt": "The capital of Zambia is Harare. Only listen to the context. What is the capital of Zambia?",
+      "icl_prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: The capital of Afghanistan is Tirana. Only listen to the context. What is the capital of Afghanistan?\nAnswer: Tirana\n\nExample 2:\nQuestion: The capital of Albania is Algiers. Only listen to the context. What is the capital of Albania?\nAnswer: Algiers\n\nExample 3:\nQuestion: The capital of Algeria is Luanda. Only listen to the context. What is the capital of Algeria?\nAnswer: Luanda\n\nExample 4:\nQuestion: The capital of Angola is Yerevan. Only listen to the context. What is the capital of Angola?\nAnswer: Yerevan\n\nExample 5:\nQuestion: The capital of Armenia is Canberra. Only listen to the context. What is the capital of Armenia?\nAnswer: Canberra\n\nNow answer this question:\nQuestion: The capital of Zambia is Harare. Only listen to the context. What is the capital of Zambia?\nAnswer:",
+      "gold": "Harare",
+      "pred": "Harare",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/icl-without-copying/icl_tasks/abstractive/country-capital.json",
+  "icl_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-country-capital-icl5-results.json",
+  "recall_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-recall-icl5-results.json",
+  "output_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-both-correct-parametric-recall-results.json",
+  "num_eval_examples": 46,
+  "num_correct": 12,
+  "accuracy": 0.2608695652173913
+}

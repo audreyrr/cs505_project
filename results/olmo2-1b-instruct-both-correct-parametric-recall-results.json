@@ -1,0 +1,427 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/icl-without-copying/icl_tasks/abstractive/country-capital.json",
+  "icl_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-country-capital-icl5-results.json",
+  "recall_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-recall-icl5-results.json",
+  "filter": "both country and capital are one word; country correct in factual ICL result file; country correct in recall/ignore-context result file",
+  "task": "parametric recall under counterfactual context",
+  "num_eval_examples": 46,
+  "num_correct": 12,
+  "accuracy": 0.2608695652173913,
+  "results": [
+    {
+      "example_id": 0,
+      "country": "Azerbaijan",
+      "gold_capital": "Baku",
+      "distractor_capital": "Dhaka",
+      "prompt": "The capital of Azerbaijan is Dhaka. Ignore the context. What is the capital of Azerbaijan? Only answer with one word.",
+      "pred": "Dhaka",
+      "correct": false
+    },
+    {
+      "example_id": 1,
+      "country": "Bangladesh",
+      "gold_capital": "Dhaka",
+      "distractor_capital": "Brussels",
+      "prompt": "The capital of Bangladesh is Brussels. Ignore the context. What is the capital of Bangladesh? Only answer with one word.",
+      "pred": "Brussels",
+      "correct": false
+    },
+    {
+      "example_id": 2,
+      "country": "Belgium",
+      "gold_capital": "Brussels",
+      "distractor_capital": "Ottawa",
+      "prompt": "The capital of Belgium is Ottawa. Ignore the context. What is the capital of Belgium? Only answer with one word.",
+      "pred": "Brussels",
+      "correct": true
+    },
+    {
+      "example_id": 3,
+      "country": "Canada",
+      "gold_capital": "Ottawa",
+      "distractor_capital": "Bogotá",
+      "prompt": "The capital of Canada is Bogotá. Ignore the context. What is the capital of Canada? Only answer with one word.",
+      "pred": "Bogotá",
+      "correct": false
+    },
+    {
+      "example_id": 4,
+      "country": "Colombia",
+      "gold_capital": "Bogotá",
+      "distractor_capital": "Copenhagen",
+      "prompt": "The capital of Colombia is Copenhagen. Ignore the context. What is the capital of Colombia? Only answer with one word.",
+      "pred": "Copenhagen",
+      "correct": false
+    },
+    {
+      "example_id": 5,
+      "country": "Denmark",
+      "gold_capital": "Copenhagen",
+      "distractor_capital": "Quito",
+      "prompt": "The capital of Denmark is Quito. Ignore the context. What is the capital of Denmark? Only answer with one word.",
+      "pred": "Quito",
+      "correct": false
+    },
+    {
+      "example_id": 6,
+      "country": "Ecuador",
+      "gold_capital": "Quito",
+      "distractor_capital": "Cairo",
+      "prompt": "The capital of Ecuador is Cairo. Ignore the context. What is the capital of Ecuador? Only answer with one word.",
+      "pred": "Cairo",
+      "correct": false
+    },
+    {
+      "example_id": 7,
+      "country": "Egypt",
+      "gold_capital": "Cairo",
+      "distractor_capital": "Tallinn",
+      "prompt": "The capital of Egypt is Tallinn. Ignore the context. What is the capital of Egypt? Only answer with one word.",
+      "pred": "Tallinn",
+      "correct": false
+    },
+    {
+      "example_id": 8,
+      "country": "Estonia",
+      "gold_capital": "Tallinn",
+      "distractor_capital": "Suva",
+      "prompt": "The capital of Estonia is Suva. Ignore the context. What is the capital of Estonia? Only answer with one word.",
+      "pred": "Suva",
+      "correct": false
+    },
+    {
+      "example_id": 9,
+      "country": "Fiji",
+      "gold_capital": "Suva",
+      "distractor_capital": "Helsinki",
+      "prompt": "The capital of Fiji is Helsinki. Ignore the context. What is the capital of Fiji? Only answer with one word.",
+      "pred": "Helsinki",
+      "correct": false
+    },
+    {
+      "example_id": 10,
+      "country": "Finland",
+      "gold_capital": "Helsinki",
+      "distractor_capital": "Paris",
+      "prompt": "The capital of Finland is Paris. Ignore the context. What is the capital of Finland? Only answer with one word.",
+      "pred": "Paris",
+      "correct": false
+    },
+    {
+      "example_id": 11,
+      "country": "France",
+      "gold_capital": "Paris",
+      "distractor_capital": "Tbilisi",
+      "prompt": "The capital of France is Tbilisi. Ignore the context. What is the capital of France? Only answer with one word.",
+      "pred": "Paris",
+      "correct": true
+    },
+    {
+      "example_id": 12,
+      "country": "Georgia",
+      "gold_capital": "Tbilisi",
+      "distractor_capital": "Berlin",
+      "prompt": "The capital of Georgia is Berlin. Ignore the context. What is the capital of Georgia? Only answer with one word.",
+      "pred": "Berlin",
+      "correct": false
+    },
+    {
+      "example_id": 13,
+      "country": "Germany",
+      "gold_capital": "Berlin",
+      "distractor_capital": "Accra",
+      "prompt": "The capital of Germany is Accra. Ignore the context. What is the capital of Germany? Only answer with one word.",
+      "pred": "Berlin",
+      "correct": true
+    },
+    {
+      "example_id": 14,
+      "country": "Ghana",
+      "gold_capital": "Accra",
+      "distractor_capital": "Athens",
+      "prompt": "The capital of Ghana is Athens. Ignore the context. What is the capital of Ghana? Only answer with one word.",
+      "pred": "Athens",
+      "correct": false
+    },
+    {
+      "example_id": 15,
+      "country": "Greece",
+      "gold_capital": "Athens",
+      "distractor_capital": "Bissau",
+      "prompt": "The capital of Greece is Bissau. Ignore the context. What is the capital of Greece? Only answer with one word.",
+      "pred": "Athens",
+      "correct": true
+    },
+    {
+      "example_id": 16,
+      "country": "Guinea-Bissau",
+      "gold_capital": "Bissau",
+      "distractor_capital": "Baghdad",
+      "prompt": "The capital of Guinea-Bissau is Baghdad. Ignore the context. What is the capital of Guinea-Bissau? Only answer with one word.",
+      "pred": "Bagdad",
+      "correct": false
+    },
+    {
+      "example_id": 17,
+      "country": "Iraq",
+      "gold_capital": "Baghdad",
+      "distractor_capital": "Dublin",
+      "prompt": "The capital of Iraq is Dublin. Ignore the context. What is the capital of Iraq? Only answer with one word.",
+      "pred": "Baghdad",
+      "correct": true
+    },
+    {
+      "example_id": 18,
+      "country": "Ireland",
+      "gold_capital": "Dublin",
+      "distractor_capital": "Rome",
+      "prompt": "The capital of Ireland is Rome. Ignore the context. What is the capital of Ireland? Only answer with one word.",
+      "pred": "Rome",
+      "correct": false
+    },
+    {
+      "example_id": 19,
+      "country": "Italy",
+      "gold_capital": "Rome",
+      "distractor_capital": "Tokyo",
+      "prompt": "The capital of Italy is Tokyo. Ignore the context. What is the capital of Italy? Only answer with one word.",
+      "pred": "Tokyo",
+      "correct": false
+    },
+    {
+      "example_id": 20,
+      "country": "Japan",
+      "gold_capital": "Tokyo",
+      "distractor_capital": "Amman",
+      "prompt": "The capital of Japan is Amman. Ignore the context. What is the capital of Japan? Only answer with one word.",
+      "pred": "Tokyo",
+      "correct": true
+    },
+    {
+      "example_id": 21,
+      "country": "Jordan",
+      "gold_capital": "Amman",
+      "distractor_capital": "Nairobi",
+      "prompt": "The capital of Jordan is Nairobi. Ignore the context. What is the capital of Jordan? Only answer with one word.",
+      "pred": "Nairobi",
+      "correct": false
+    },
+    {
+      "example_id": 22,
+      "country": "Kenya",
+      "gold_capital": "Nairobi",
+      "distractor_capital": "Beirut",
+      "prompt": "The capital of Kenya is Beirut. Ignore the context. What is the capital of Kenya? Only answer with one word.",
+      "pred": "Beirut",
+      "correct": false
+    },
+    {
+      "example_id": 23,
+      "country": "Lebanon",
+      "gold_capital": "Beirut",
+      "distractor_capital": "Monrovia",
+      "prompt": "The capital of Lebanon is Monrovia. Ignore the context. What is the capital of Lebanon? Only answer with one word.",
+      "pred": "Monrovia",
+      "correct": false
+    },
+    {
+      "example_id": 24,
+      "country": "Liberia",
+      "gold_capital": "Monrovia",
+      "distractor_capital": "Tripoli",
+      "prompt": "The capital of Liberia is Tripoli. Ignore the context. What is the capital of Liberia? Only answer with one word.",
+      "pred": "Tripoli",
+      "correct": false
+    },
+    {
+      "example_id": 25,
+      "country": "Libya",
+      "gold_capital": "Tripoli",
+      "distractor_capital": "Malé",
+      "prompt": "The capital of Libya is Malé. Ignore the context. What is the capital of Libya? Only answer with one word.",
+      "pred": "Malé",
+      "correct": false
+    },
+    {
+      "example_id": 26,
+      "country": "Maldives",
+      "gold_capital": "Malé",
+      "distractor_capital": "Amsterdam",
+      "prompt": "The capital of Maldives is Amsterdam. Ignore the context. What is the capital of Maldives? Only answer with one word.",
+      "pred": "Amsterdam",
+      "correct": false
+    },
+    {
+      "example_id": 27,
+      "country": "Netherlands",
+      "gold_capital": "Amsterdam",
+      "distractor_capital": "Oslo",
+      "prompt": "The capital of Netherlands is Oslo. Ignore the context. What is the capital of Netherlands? Only answer with one word.",
+      "pred": "Oslo",
+      "correct": false
+    },
+    {
+      "example_id": 28,
+      "country": "Norway",
+      "gold_capital": "Oslo",
+      "distractor_capital": "Islamabad",
+      "prompt": "The capital of Norway is Islamabad. Ignore the context. What is the capital of Norway? Only answer with one word.",
+      "pred": "Oslo",
+      "correct": true
+    },
+    {
+      "example_id": 29,
+      "country": "Pakistan",
+      "gold_capital": "Islamabad",
+      "distractor_capital": "Manila",
+      "prompt": "The capital of Pakistan is Manila. Ignore the context. What is the capital of Pakistan? Only answer with one word.",
+      "pred": "Manila",
+      "correct": false
+    },
+    {
+      "example_id": 30,
+      "country": "Philippines",
+      "gold_capital": "Manila",
+      "distractor_capital": "Bucharest",
+      "prompt": "The capital of Philippines is Bucharest. Ignore the context. What is the capital of Philippines? Only answer with one word.",
+      "pred": "Manila",
+      "correct": true
+    },
+    {
+      "example_id": 31,
+      "country": "Romania",
+      "gold_capital": "Bucharest",
+      "distractor_capital": "Moscow",
+      "prompt": "The capital of Romania is Moscow. Ignore the context. What is the capital of Romania? Only answer with one word.",
+      "pred": "Moscow",
+      "correct": false
+    },
+    {
+      "example_id": 32,
+      "country": "Russia",
+      "gold_capital": "Moscow",
+      "distractor_capital": "Kigali",
+      "prompt": "The capital of Russia is Kigali. Ignore the context. What is the capital of Russia? Only answer with one word.",
+      "pred": "Moscow",
+      "correct": true
+    },
+    {
+      "example_id": 33,
+      "country": "Rwanda",
+      "gold_capital": "Kigali",
+      "distractor_capital": "Belgrade",
+      "prompt": "The capital of Rwanda is Belgrade. Ignore the context. What is the capital of Rwanda? Only answer with one word.",
+      "pred": "Kigali",
+      "correct": true
+    },
+    {
+      "example_id": 34,
+      "country": "Serbia",
+      "gold_capital": "Belgrade",
+      "distractor_capital": "Ljubljana",
+      "prompt": "The capital of Serbia is Ljubljana. Ignore the context. What is the capital of Serbia? Only answer with one word.",
+      "pred": "Ljubljana",
+      "correct": false
+    },
+    {
+      "example_id": 35,
+      "country": "Slovenia",
+      "gold_capital": "Ljubljana",
+      "distractor_capital": "Madrid",
+      "prompt": "The capital of Slovenia is Madrid. Ignore the context. What is the capital of Slovenia? Only answer with one word.",
+      "pred": "Madrid",
+      "correct": false
+    },
+    {
+      "example_id": 36,
+      "country": "Spain",
+      "gold_capital": "Madrid",
+      "distractor_capital": "Stockholm",
+      "prompt": "The capital of Spain is Stockholm. Ignore the context. What is the capital of Spain? Only answer with one word.",
+      "pred": "Stockholm",
+      "correct": false
+    },
+    {
+      "example_id": 37,
+      "country": "Sweden",
+      "gold_capital": "Stockholm",
+      "distractor_capital": "Damascus",
+      "prompt": "The capital of Sweden is Damascus. Ignore the context. What is the capital of Sweden? Only answer with one word.",
+      "pred": "Stockholm",
+      "correct": true
+    },
+    {
+      "example_id": 38,
+      "country": "Syria",
+      "gold_capital": "Damascus",
+      "distractor_capital": "Tunis",
+      "prompt": "The capital of Syria is Tunis. Ignore the context. What is the capital of Syria? Only answer with one word.",
+      "pred": "Tunis",
+      "correct": false
+    },
+    {
+      "example_id": 39,
+      "country": "Tunisia",
+      "gold_capital": "Tunis",
+      "distractor_capital": "Ashgabat",
+      "prompt": "The capital of Tunisia is Ashgabat. Ignore the context. What is the capital of Tunisia? Only answer with one word.",
+      "pred": "Ashgabat",
+      "correct": false
+    },
+    {
+      "example_id": 40,
+      "country": "Turkmenistan",
+      "gold_capital": "Ashgabat",
+      "distractor_capital": "Montevideo",
+      "prompt": "The capital of Turkmenistan is Montevideo. Ignore the context. What is the capital of Turkmenistan? Only answer with one word.",
+      "pred": "Turkmenbashi",
+      "correct": false
+    },
+    {
+      "example_id": 41,
+      "country": "Uruguay",
+      "gold_capital": "Montevideo",
+      "distractor_capital": "Tashkent",
+      "prompt": "The capital of Uruguay is Tashkent. Ignore the context. What is the capital of Uruguay? Only answer with one word.",
+      "pred": "Tashkent",
+      "correct": false
+    },
+    {
+      "example_id": 42,
+      "country": "Uzbekistan",
+      "gold_capital": "Tashkent",
+      "distractor_capital": "Caracas",
+      "prompt": "The capital of Uzbekistan is Caracas. Ignore the context. What is the capital of Uzbekistan? Only answer with one word.",
+      "pred": "Caracas",
+      "correct": false
+    },
+    {
+      "example_id": 43,
+      "country": "Venezuela",
+      "gold_capital": "Caracas",
+      "distractor_capital": "Hanoi",
+      "prompt": "The capital of Venezuela is Hanoi. Ignore the context. What is the capital of Venezuela? Only answer with one word.",
+      "pred": "Caracas",
+      "correct": true
+    },
+    {
+      "example_id": 44,
+      "country": "Vietnam",
+      "gold_capital": "Hanoi",
+      "distractor_capital": "Sana'a",
+      "prompt": "The capital of Vietnam is Sana'a. Ignore the context. What is the capital of Vietnam? Only answer with one word.",
+      "pred": "Sana'a",
+      "correct": false
+    },
+    {
+      "example_id": 45,
+      "country": "Yemen",
+      "gold_capital": "Sana'a",
+      "distractor_capital": "Baku",
+      "prompt": "The capital of Yemen is Baku. Ignore the context. What is the capital of Yemen? Only answer with one word.",
+      "pred": "Baku",
+      "correct": false
+    }
+  ]
+}

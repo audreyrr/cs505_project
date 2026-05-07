@@ -1,0 +1,1146 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/icl-without-copying/icl_tasks/abstractive/country-capital.json",
+  "filter": "both country and capital are one word",
+  "num_icl_examples": 5,
+  "num_total_examples_after_filtering": 144,
+  "num_eval_examples": 139,
+  "num_correct": 116,
+  "accuracy": 0.8345323741007195,
+  "icl_examples": [
+    {
+      "input": "Afghanistan",
+      "output": "Kabul"
+    },
+    {
+      "input": "Albania",
+      "output": "Tirana"
+    },
+    {
+      "input": "Algeria",
+      "output": "Algiers"
+    },
+    {
+      "input": "Angola",
+      "output": "Luanda"
+    },
+    {
+      "input": "Armenia",
+      "output": "Yerevan"
+    }
+  ],
+  "results": [
+    {
+      "example_id": 5,
+      "country": "Australia",
+      "gold_capital": "Canberra",
+      "pred": "Canberra",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Australia\nCapital:"
+    },
+    {
+      "example_id": 6,
+      "country": "Austria",
+      "gold_capital": "Vienna",
+      "pred": "Vienna",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Austria\nCapital:"
+    },
+    {
+      "example_id": 7,
+      "country": "Azerbaijan",
+      "gold_capital": "Baku",
+      "pred": "Baku",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Azerbaijan\nCapital:"
+    },
+    {
+      "example_id": 8,
+      "country": "Bahamas",
+      "gold_capital": "Nassau",
+      "pred": "Bimini",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Bahamas\nCapital:"
+    },
+    {
+      "example_id": 9,
+      "country": "Bahrain",
+      "gold_capital": "Manama",
+      "pred": "Manama",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Bahrain\nCapital:"
+    },
+    {
+      "example_id": 10,
+      "country": "Bangladesh",
+      "gold_capital": "Dhaka",
+      "pred": "Dhaka",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Bangladesh\nCapital:"
+    },
+    {
+      "example_id": 11,
+      "country": "Barbados",
+      "gold_capital": "Bridgetown",
+      "pred": "Bridgetown",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Barbados\nCapital:"
+    },
+    {
+      "example_id": 12,
+      "country": "Belarus",
+      "gold_capital": "Minsk",
+      "pred": "Minsk",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Belarus\nCapital:"
+    },
+    {
+      "example_id": 13,
+      "country": "Belgium",
+      "gold_capital": "Brussels",
+      "pred": "Brussels",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Belgium\nCapital:"
+    },
+    {
+      "example_id": 14,
+      "country": "Belize",
+      "gold_capital": "Belmopan",
+      "pred": "Belmopan",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Belize\nCapital:"
+    },
+    {
+      "example_id": 15,
+      "country": "Benin",
+      "gold_capital": "Porto-Novo",
+      "pred": "Cotonou",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Benin\nCapital:"
+    },
+    {
+      "example_id": 16,
+      "country": "Bhutan",
+      "gold_capital": "Thimphu",
+      "pred": "Thimphu",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Bhutan\nCapital:"
+    },
+    {
+      "example_id": 17,
+      "country": "Botswana",
+      "gold_capital": "Gaborone",
+      "pred": "Gaborone",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Botswana\nCapital:"
+    },
+    {
+      "example_id": 18,
+      "country": "Brazil",
+      "gold_capital": "Brasilia",
+      "pred": "Brasília",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Brazil\nCapital:"
+    },
+    {
+      "example_id": 19,
+      "country": "Bulgaria",
+      "gold_capital": "Sofia",
+      "pred": "Burgas",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Bulgaria\nCapital:"
+    },
+    {
+      "example_id": 20,
+      "country": "Burundi",
+      "gold_capital": "Bujumbura",
+      "pred": "Bujumbura",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Burundi\nCapital:"
+    },
+    {
+      "example_id": 21,
+      "country": "Cameroon",
+      "gold_capital": "Yaounde",
+      "pred": "Yaoundé",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Cameroon\nCapital:"
+    },
+    {
+      "example_id": 22,
+      "country": "Canada",
+      "gold_capital": "Ottawa",
+      "pred": "Ottawa",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Canada\nCapital:"
+    },
+    {
+      "example_id": 23,
+      "country": "Chad",
+      "gold_capital": "N'Djamena",
+      "pred": "N'Djamena",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Chad\nCapital:"
+    },
+    {
+      "example_id": 24,
+      "country": "Chile",
+      "gold_capital": "Santiago",
+      "pred": "Santiago",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Chile\nCapital:"
+    },
+    {
+      "example_id": 25,
+      "country": "China",
+      "gold_capital": "Beijing",
+      "pred": "Beijing",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: China\nCapital:"
+    },
+    {
+      "example_id": 26,
+      "country": "Colombia",
+      "gold_capital": "Bogotá",
+      "pred": "Bogotá",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Colombia\nCapital:"
+    },
+    {
+      "example_id": 27,
+      "country": "Comoros",
+      "gold_capital": "Moroni",
+      "pred": "Moroni",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Comoros\nCapital:"
+    },
+    {
+      "example_id": 28,
+      "country": "Congo",
+      "gold_capital": "Kinshasa",
+      "pred": "Kinshasa",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Congo\nCapital:"
+    },
+    {
+      "example_id": 29,
+      "country": "Croatia",
+      "gold_capital": "Zagreb",
+      "pred": "Zagreb",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Croatia\nCapital:"
+    },
+    {
+      "example_id": 30,
+      "country": "Cuba",
+      "gold_capital": "Havana",
+      "pred": "La Habana",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Cuba\nCapital:"
+    },
+    {
+      "example_id": 31,
+      "country": "Cyprus",
+      "gold_capital": "Nicosia",
+      "pred": "Nicosia",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Cyprus\nCapital:"
+    },
+    {
+      "example_id": 32,
+      "country": "Denmark",
+      "gold_capital": "Copenhagen",
+      "pred": "Copenhagen",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Denmark\nCapital:"
+    },
+    {
+      "example_id": 33,
+      "country": "Dominica",
+      "gold_capital": "Roseau",
+      "pred": "Kingston",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Dominica\nCapital:"
+    },
+    {
+      "example_id": 34,
+      "country": "Ecuador",
+      "gold_capital": "Quito",
+      "pred": "Quito",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Ecuador\nCapital:"
+    },
+    {
+      "example_id": 35,
+      "country": "Egypt",
+      "gold_capital": "Cairo",
+      "pred": "Cairo",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Egypt\nCapital:"
+    },
+    {
+      "example_id": 36,
+      "country": "Eritrea",
+      "gold_capital": "Asmara",
+      "pred": "Asmara",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Eritrea\nCapital:"
+    },
+    {
+      "example_id": 37,
+      "country": "Estonia",
+      "gold_capital": "Tallinn",
+      "pred": "Tallinn",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Estonia\nCapital:"
+    },
+    {
+      "example_id": 38,
+      "country": "Eswatini",
+      "gold_capital": "Mbabane",
+      "pred": "Mbabane",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Eswatini\nCapital:"
+    },
+    {
+      "example_id": 39,
+      "country": "Fiji",
+      "gold_capital": "Suva",
+      "pred": "Suva",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Fiji\nCapital:"
+    },
+    {
+      "example_id": 40,
+      "country": "Finland",
+      "gold_capital": "Helsinki",
+      "pred": "Helsinki",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Finland\nCapital:"
+    },
+    {
+      "example_id": 41,
+      "country": "France",
+      "gold_capital": "Paris",
+      "pred": "Paris",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: France\nCapital:"
+    },
+    {
+      "example_id": 42,
+      "country": "Gabon",
+      "gold_capital": "Libreville",
+      "pred": "Libreville",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Gabon\nCapital:"
+    },
+    {
+      "example_id": 43,
+      "country": "Gambia",
+      "gold_capital": "Banjul",
+      "pred": "Banjul",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Gambia\nCapital:"
+    },
+    {
+      "example_id": 44,
+      "country": "Georgia",
+      "gold_capital": "Tbilisi",
+      "pred": "Tbilisi",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Georgia\nCapital:"
+    },
+    {
+      "example_id": 45,
+      "country": "Germany",
+      "gold_capital": "Berlin",
+      "pred": "Berlin",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Germany\nCapital:"
+    },
+    {
+      "example_id": 46,
+      "country": "Ghana",
+      "gold_capital": "Accra",
+      "pred": "Accra",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Ghana\nCapital:"
+    },
+    {
+      "example_id": 47,
+      "country": "Greece",
+      "gold_capital": "Athens",
+      "pred": "Athens",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Greece\nCapital:"
+    },
+    {
+      "example_id": 48,
+      "country": "Guinea",
+      "gold_capital": "Conakry",
+      "pred": "Conakry",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Guinea\nCapital:"
+    },
+    {
+      "example_id": 49,
+      "country": "Guinea-Bissau",
+      "gold_capital": "Bissau",
+      "pred": "Bissau",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Guinea-Bissau\nCapital:"
+    },
+    {
+      "example_id": 50,
+      "country": "Guyana",
+      "gold_capital": "Georgetown",
+      "pred": "Barrington Bay",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Guyana\nCapital:"
+    },
+    {
+      "example_id": 51,
+      "country": "Haiti",
+      "gold_capital": "Port-au-Prince",
+      "pred": "Port-au-Prince",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Haiti\nCapital:"
+    },
+    {
+      "example_id": 52,
+      "country": "Honduras",
+      "gold_capital": "Tegucigalpa",
+      "pred": "Tegucigalpa",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Honduras\nCapital:"
+    },
+    {
+      "example_id": 53,
+      "country": "Hungary",
+      "gold_capital": "Budapest",
+      "pred": "Budapest",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Hungary\nCapital:"
+    },
+    {
+      "example_id": 54,
+      "country": "Iceland",
+      "gold_capital": "Reykjavik",
+      "pred": "Reykjavik",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Iceland\nCapital:"
+    },
+    {
+      "example_id": 55,
+      "country": "Indonesia",
+      "gold_capital": "Jakarta",
+      "pred": "Jakarta",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Indonesia\nCapital:"
+    },
+    {
+      "example_id": 56,
+      "country": "Iran",
+      "gold_capital": "Tehran",
+      "pred": "Tehran",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Iran\nCapital:"
+    },
+    {
+      "example_id": 57,
+      "country": "Iraq",
+      "gold_capital": "Baghdad",
+      "pred": "Baghdad",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Iraq\nCapital:"
+    },
+    {
+      "example_id": 58,
+      "country": "Ireland",
+      "gold_capital": "Dublin",
+      "pred": "Dublin",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Ireland\nCapital:"
+    },
+    {
+      "example_id": 59,
+      "country": "Israel",
+      "gold_capital": "Jerusalem",
+      "pred": "Jerusalem",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Israel\nCapital:"
+    },
+    {
+      "example_id": 60,
+      "country": "Italy",
+      "gold_capital": "Rome",
+      "pred": "Rome",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Italy\nCapital:"
+    },
+    {
+      "example_id": 61,
+      "country": "Jamaica",
+      "gold_capital": "Kingston",
+      "pred": "Kingston",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Jamaica\nCapital:"
+    },
+    {
+      "example_id": 62,
+      "country": "Japan",
+      "gold_capital": "Tokyo",
+      "pred": "Tokyo",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Japan\nCapital:"
+    },
+    {
+      "example_id": 63,
+      "country": "Jordan",
+      "gold_capital": "Amman",
+      "pred": "Amman",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Jordan\nCapital:"
+    },
+    {
+      "example_id": 64,
+      "country": "Kazakhstan",
+      "gold_capital": "Astana",
+      "pred": "Almaty",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Kazakhstan\nCapital:"
+    },
+    {
+      "example_id": 65,
+      "country": "Kenya",
+      "gold_capital": "Nairobi",
+      "pred": "Nairobi",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Kenya\nCapital:"
+    },
+    {
+      "example_id": 66,
+      "country": "Kosovo",
+      "gold_capital": "Pristina",
+      "pred": "Pristina",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Kosovo\nCapital:"
+    },
+    {
+      "example_id": 67,
+      "country": "Kyrgyzstan",
+      "gold_capital": "Bishkek",
+      "pred": "Bishkek",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Kyrgyzstan\nCapital:"
+    },
+    {
+      "example_id": 68,
+      "country": "Laos",
+      "gold_capital": "Vientiane",
+      "pred": "Vientiane",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Laos\nCapital:"
+    },
+    {
+      "example_id": 69,
+      "country": "Latvia",
+      "gold_capital": "Riga",
+      "pred": "Riga",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Latvia\nCapital:"
+    },
+    {
+      "example_id": 70,
+      "country": "Lebanon",
+      "gold_capital": "Beirut",
+      "pred": "Beirut",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Lebanon\nCapital:"
+    },
+    {
+      "example_id": 71,
+      "country": "Lesotho",
+      "gold_capital": "Maseru",
+      "pred": "Maseru",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Lesotho\nCapital:"
+    },
+    {
+      "example_id": 72,
+      "country": "Liberia",
+      "gold_capital": "Monrovia",
+      "pred": "Monrovia",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Liberia\nCapital:"
+    },
+    {
+      "example_id": 73,
+      "country": "Libya",
+      "gold_capital": "Tripoli",
+      "pred": "Tripoli",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Libya\nCapital:"
+    },
+    {
+      "example_id": 74,
+      "country": "Liechtenstein",
+      "gold_capital": "Vaduz",
+      "pred": "Vaduz",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Liechtenstein\nCapital:"
+    },
+    {
+      "example_id": 75,
+      "country": "Lithuania",
+      "gold_capital": "Vilnius",
+      "pred": "Vilnius",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Lithuania\nCapital:"
+    },
+    {
+      "example_id": 76,
+      "country": "Madagascar",
+      "gold_capital": "Antananarivo",
+      "pred": "Antananarivo",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Madagascar\nCapital:"
+    },
+    {
+      "example_id": 77,
+      "country": "Malawi",
+      "gold_capital": "Lilongwe",
+      "pred": "Blantyre",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Malawi\nCapital:"
+    },
+    {
+      "example_id": 78,
+      "country": "Maldives",
+      "gold_capital": "Malé",
+      "pred": "Malé",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Maldives\nCapital:"
+    },
+    {
+      "example_id": 79,
+      "country": "Mali",
+      "gold_capital": "Bamako",
+      "pred": "Bamako",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Mali\nCapital:"
+    },
+    {
+      "example_id": 80,
+      "country": "Malta",
+      "gold_capital": "Valletta",
+      "pred": "Valletta",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Malta\nCapital:"
+    },
+    {
+      "example_id": 81,
+      "country": "Mauritania",
+      "gold_capital": "Nouakchott",
+      "pred": "Nouakchott",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Mauritania\nCapital:"
+    },
+    {
+      "example_id": 82,
+      "country": "Micronesia",
+      "gold_capital": "Palikir",
+      "pred": "Palikir",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Micronesia\nCapital:"
+    },
+    {
+      "example_id": 83,
+      "country": "Moldova",
+      "gold_capital": "Chisinau",
+      "pred": "Chisinau",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Moldova\nCapital:"
+    },
+    {
+      "example_id": 84,
+      "country": "Monaco",
+      "gold_capital": "Monaco-Ville",
+      "pred": "Monaco",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Monaco\nCapital:"
+    },
+    {
+      "example_id": 85,
+      "country": "Mongolia",
+      "gold_capital": "Ulaanbaatar",
+      "pred": "Ulan Bator",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Mongolia\nCapital:"
+    },
+    {
+      "example_id": 86,
+      "country": "Montenegro",
+      "gold_capital": "Podgorica",
+      "pred": "Podgorica",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Montenegro\nCapital:"
+    },
+    {
+      "example_id": 87,
+      "country": "Morocco",
+      "gold_capital": "Rabat",
+      "pred": "Casablanca",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Morocco\nCapital:"
+    },
+    {
+      "example_id": 88,
+      "country": "Mozambique",
+      "gold_capital": "Maputo",
+      "pred": "Maputo",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Mozambique\nCapital:"
+    },
+    {
+      "example_id": 89,
+      "country": "Myanmar",
+      "gold_capital": "Naypyidaw",
+      "pred": "Myanmar",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Myanmar\nCapital:"
+    },
+    {
+      "example_id": 90,
+      "country": "Namibia",
+      "gold_capital": "Windhoek",
+      "pred": "Windhoek",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Namibia\nCapital:"
+    },
+    {
+      "example_id": 91,
+      "country": "Nepal",
+      "gold_capital": "Kathmandu",
+      "pred": "Kathmandu",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Nepal\nCapital:"
+    },
+    {
+      "example_id": 92,
+      "country": "Netherlands",
+      "gold_capital": "Amsterdam",
+      "pred": "Amsterdam",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Netherlands\nCapital:"
+    },
+    {
+      "example_id": 93,
+      "country": "Nicaragua",
+      "gold_capital": "Managua",
+      "pred": "Managua",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Nicaragua\nCapital:"
+    },
+    {
+      "example_id": 94,
+      "country": "Niger",
+      "gold_capital": "Niamey",
+      "pred": "Niamey",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Niger\nCapital:"
+    },
+    {
+      "example_id": 95,
+      "country": "Nigeria",
+      "gold_capital": "Abuja",
+      "pred": "Abuja",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Nigeria\nCapital:"
+    },
+    {
+      "example_id": 96,
+      "country": "Norway",
+      "gold_capital": "Oslo",
+      "pred": "Oslo",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Norway\nCapital:"
+    },
+    {
+      "example_id": 97,
+      "country": "Oman",
+      "gold_capital": "Muscat",
+      "pred": "Muscat",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Oman\nCapital:"
+    },
+    {
+      "example_id": 98,
+      "country": "Pakistan",
+      "gold_capital": "Islamabad",
+      "pred": "Islamabad",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Pakistan\nCapital:"
+    },
+    {
+      "example_id": 99,
+      "country": "Palau",
+      "gold_capital": "Ngerulmud",
+      "pred": "Palau",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Palau\nCapital:"
+    },
+    {
+      "example_id": 100,
+      "country": "Palestine",
+      "gold_capital": "Ramallah",
+      "pred": "Jerusalem",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Palestine\nCapital:"
+    },
+    {
+      "example_id": 101,
+      "country": "Paraguay",
+      "gold_capital": "Asunción",
+      "pred": "Asunción",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Paraguay\nCapital:"
+    },
+    {
+      "example_id": 102,
+      "country": "Peru",
+      "gold_capital": "Lima",
+      "pred": "Cusco",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Peru\nCapital:"
+    },
+    {
+      "example_id": 103,
+      "country": "Philippines",
+      "gold_capital": "Manila",
+      "pred": "Manila",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Philippines\nCapital:"
+    },
+    {
+      "example_id": 104,
+      "country": "Poland",
+      "gold_capital": "Warsaw",
+      "pred": "Warsaw",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Poland\nCapital:"
+    },
+    {
+      "example_id": 105,
+      "country": "Portugal",
+      "gold_capital": "Lisbon",
+      "pred": "Lisbon",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Portugal\nCapital:"
+    },
+    {
+      "example_id": 106,
+      "country": "Qatar",
+      "gold_capital": "Doha",
+      "pred": "Doha",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Qatar\nCapital:"
+    },
+    {
+      "example_id": 107,
+      "country": "Romania",
+      "gold_capital": "Bucharest",
+      "pred": "Bucharest",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Romania\nCapital:"
+    },
+    {
+      "example_id": 108,
+      "country": "Russia",
+      "gold_capital": "Moscow",
+      "pred": "Moscow",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Russia\nCapital:"
+    },
+    {
+      "example_id": 109,
+      "country": "Rwanda",
+      "gold_capital": "Kigali",
+      "pred": "Kigali",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Rwanda\nCapital:"
+    },
+    {
+      "example_id": 110,
+      "country": "Samoa",
+      "gold_capital": "Apia",
+      "pred": "Apia",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Samoa\nCapital:"
+    },
+    {
+      "example_id": 111,
+      "country": "Senegal",
+      "gold_capital": "Dakar",
+      "pred": "Abidjan",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Senegal\nCapital:"
+    },
+    {
+      "example_id": 112,
+      "country": "Serbia",
+      "gold_capital": "Belgrade",
+      "pred": "Belgrade",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Serbia\nCapital:"
+    },
+    {
+      "example_id": 113,
+      "country": "Seychelles",
+      "gold_capital": "Victoria",
+      "pred": "Victoria",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Seychelles\nCapital:"
+    },
+    {
+      "example_id": 114,
+      "country": "Singapore",
+      "gold_capital": "Singapore",
+      "pred": "Singapore",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Singapore\nCapital:"
+    },
+    {
+      "example_id": 115,
+      "country": "Slovakia",
+      "gold_capital": "Bratislava",
+      "pred": "Bratislava",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Slovakia\nCapital:"
+    },
+    {
+      "example_id": 116,
+      "country": "Slovenia",
+      "gold_capital": "Ljubljana",
+      "pred": "Ljubljana",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Slovenia\nCapital:"
+    },
+    {
+      "example_id": 117,
+      "country": "Somalia",
+      "gold_capital": "Mogadishu",
+      "pred": "Somalia's capital is Mogadishu.",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Somalia\nCapital:"
+    },
+    {
+      "example_id": 118,
+      "country": "Spain",
+      "gold_capital": "Madrid",
+      "pred": "Madrid",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Spain\nCapital:"
+    },
+    {
+      "example_id": 119,
+      "country": "Sudan",
+      "gold_capital": "Khartoum",
+      "pred": "Khartoum",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Sudan\nCapital:"
+    },
+    {
+      "example_id": 120,
+      "country": "Suriname",
+      "gold_capital": "Paramaribo",
+      "pred": "Sucre",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Suriname\nCapital:"
+    },
+    {
+      "example_id": 121,
+      "country": "Sweden",
+      "gold_capital": "Stockholm",
+      "pred": "Stockholm",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Sweden\nCapital:"
+    },
+    {
+      "example_id": 122,
+      "country": "Switzerland",
+      "gold_capital": "Bern",
+      "pred": "Bern",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Switzerland\nCapital:"
+    },
+    {
+      "example_id": 123,
+      "country": "Syria",
+      "gold_capital": "Damascus",
+      "pred": "Damascus",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Syria\nCapital:"
+    },
+    {
+      "example_id": 124,
+      "country": "Taiwan",
+      "gold_capital": "Taipei",
+      "pred": "Taipei",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Taiwan\nCapital:"
+    },
+    {
+      "example_id": 125,
+      "country": "Tajikistan",
+      "gold_capital": "Dushanbe",
+      "pred": "Dushanbe",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Tajikistan\nCapital:"
+    },
+    {
+      "example_id": 126,
+      "country": "Tanzania",
+      "gold_capital": "Dodoma",
+      "pred": "Dar es Salaam",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Tanzania\nCapital:"
+    },
+    {
+      "example_id": 127,
+      "country": "Thailand",
+      "gold_capital": "Bangkok",
+      "pred": "Bangkok",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Thailand\nCapital:"
+    },
+    {
+      "example_id": 128,
+      "country": "Timor-Leste",
+      "gold_capital": "Dili",
+      "pred": "Dili",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Timor-Leste\nCapital:"
+    },
+    {
+      "example_id": 129,
+      "country": "Togo",
+      "gold_capital": "Lome",
+      "pred": "Lomé",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Togo\nCapital:"
+    },
+    {
+      "example_id": 130,
+      "country": "Tonga",
+      "gold_capital": "Nukuʻalofa",
+      "pred": "Tongatapu",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Tonga\nCapital:"
+    },
+    {
+      "example_id": 131,
+      "country": "Tunisia",
+      "gold_capital": "Tunis",
+      "pred": "Tunis",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Tunisia\nCapital:"
+    },
+    {
+      "example_id": 132,
+      "country": "Turkey",
+      "gold_capital": "Ankara",
+      "pred": "Ankara",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Turkey\nCapital:"
+    },
+    {
+      "example_id": 133,
+      "country": "Turkmenistan",
+      "gold_capital": "Ashgabat",
+      "pred": "Ashgabat",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Turkmenistan\nCapital:"
+    },
+    {
+      "example_id": 134,
+      "country": "Tuvalu",
+      "gold_capital": "Funafuti",
+      "pred": "Funafuti",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Tuvalu\nCapital:"
+    },
+    {
+      "example_id": 135,
+      "country": "Uganda",
+      "gold_capital": "Kampala",
+      "pred": "Kampala",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Uganda\nCapital:"
+    },
+    {
+      "example_id": 136,
+      "country": "Ukraine",
+      "gold_capital": "Kiev",
+      "pred": "Kyiv",
+      "correct": false,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Ukraine\nCapital:"
+    },
+    {
+      "example_id": 137,
+      "country": "Uruguay",
+      "gold_capital": "Montevideo",
+      "pred": "Montevideo",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Uruguay\nCapital:"
+    },
+    {
+      "example_id": 138,
+      "country": "Uzbekistan",
+      "gold_capital": "Tashkent",
+      "pred": "Tashkent",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Uzbekistan\nCapital:"
+    },
+    {
+      "example_id": 139,
+      "country": "Venezuela",
+      "gold_capital": "Caracas",
+      "pred": "Caracas",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Venezuela\nCapital:"
+    },
+    {
+      "example_id": 140,
+      "country": "Vietnam",
+      "gold_capital": "Hanoi",
+      "pred": "Hanoi",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Vietnam\nCapital:"
+    },
+    {
+      "example_id": 141,
+      "country": "Yemen",
+      "gold_capital": "Sana'a",
+      "pred": "Sana'a",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Yemen\nCapital:"
+    },
+    {
+      "example_id": 142,
+      "country": "Zambia",
+      "gold_capital": "Lusaka",
+      "pred": "Lusaka",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Zambia\nCapital:"
+    },
+    {
+      "example_id": 143,
+      "country": "Zimbabwe",
+      "gold_capital": "Harare",
+      "pred": "Harare",
+      "correct": true,
+      "icl_prompt": "Answer the following country-capital questions. Given a country name, output only its capital city.\n\nExamples:\n\nExample 1:\nCountry: Afghanistan\nCapital: Kabul\n\nExample 2:\nCountry: Albania\nCapital: Tirana\n\nExample 3:\nCountry: Algeria\nCapital: Algiers\n\nExample 4:\nCountry: Angola\nCapital: Luanda\n\nExample 5:\nCountry: Armenia\nCapital: Yerevan\n\nNow answer this question:\nCountry: Zimbabwe\nCapital:"
+    }
+  ]
+}

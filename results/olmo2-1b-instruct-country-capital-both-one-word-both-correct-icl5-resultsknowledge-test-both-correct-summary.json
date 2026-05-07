@@ -1,0 +1,35 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/icl-without-copying/icl_tasks/abstractive/country-capital.json",
+  "icl_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-country-capital-icl5-results.json",
+  "previous_recall_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-recall-icl5-results.json",
+  "output_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-country-capital-both-one-word-both-correct-icl5-results.json",
+  "filter": "both country and capital are one word; correct in factual ICL and previous recall result files",
+  "task": "clean factual 5-shot country-capital recall on both-correct subset",
+  "num_icl_examples": 5,
+  "icl_examples": [
+    {
+      "input": "Afghanistan",
+      "output": "Kabul"
+    },
+    {
+      "input": "Albania",
+      "output": "Tirana"
+    },
+    {
+      "input": "Algeria",
+      "output": "Algiers"
+    },
+    {
+      "input": "Angola",
+      "output": "Luanda"
+    },
+    {
+      "input": "Armenia",
+      "output": "Yerevan"
+    }
+  ],
+  "num_eval_examples": 46,
+  "num_correct": 45,
+  "accuracy": 0.9782608695652174
+}

@@ -1,0 +1,867 @@
+{
+  "model": "allenai/OLMo-2-1124-7B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/generated_datasets/country-capital-cc-pair-recall.json",
+  "accuracy": 0.916083916083916,
+  "num_examples": 143,
+  "num_correct": 131,
+  "results": [
+    {
+      "prompt": "The capital of Afghanistan is Tirana. Ignore the context. What is the capital of Afghanistan?",
+      "gold": "Kabul",
+      "pred": "The capital of Afghanistan is not Tirana. The capital of Afghanistan is Kabul.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Albania is Algiers. Ignore the context. What is the capital of Albania?",
+      "gold": "Tirana",
+      "pred": "The capital of Albania is Tirana, not Algiers. The statement \"The capital of Albania is",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Algeria is Luanda. Ignore the context. What is the capital of Algeria?",
+      "gold": "Algiers",
+      "pred": "The capital of Algeria is actually Algiers, not Luanda. Luanda is the capital of Angola",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Angola is Yerevan. Ignore the context. What is the capital of Angola?",
+      "gold": "Luanda",
+      "pred": "The capital of Angola is Luanda. The statement that the capital is Yerevan is incorrect.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Armenia is Canberra. Ignore the context. What is the capital of Armenia?",
+      "gold": "Yerevan",
+      "pred": "The capital of Armenia is Yerevan. The statement that the capital is Canberra is incorrect. Y",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Australia is Vienna. Ignore the context. What is the capital of Australia?",
+      "gold": "Canberra",
+      "pred": "The capital of Australia is Canberra. The statement that the capital is Vienna is incorrect. Canberra was purpose",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Austria is Baku. Ignore the context. What is the capital of Austria?",
+      "gold": "Vienna",
+      "pred": "The capital of Austria is Vienna.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Azerbaijan is Nassau. Ignore the context. What is the capital of Azerbaijan?",
+      "gold": "Baku",
+      "pred": "The capital of Azerbaijan is Baku, not Nassau. The query to ignore the context about \"",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Bahamas is Manama. Ignore the context. What is the capital of Bahamas?",
+      "gold": "Nassau",
+      "pred": "The capital of the Bahamas is Nassau, not Manama. Manama is the capital of Bahrain",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Bahrain is Dhaka. Ignore the context. What is the capital of Bahrain?",
+      "gold": "Manama",
+      "pred": "The capital of Bahrain is not Dhaka. The capital of Bahrain is Manama.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Bangladesh is Bridgetown. Ignore the context. What is the capital of Bangladesh?",
+      "gold": "Dhaka",
+      "pred": "The capital of Bangladesh is not Bridgetown. The capital of Bangladesh is Dhaka.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Barbados is Minsk. Ignore the context. What is the capital of Barbados?",
+      "gold": "Bridgetown",
+      "pred": "The capital of Barbados is Bridgetown, not Minsk. Bridgetown is the largest",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Belarus is Brussels. Ignore the context. What is the capital of Belarus?",
+      "gold": "Minsk",
+      "pred": "The capital of Belarus is Minsk, not Brussels. The statement \"The capital of Belarus is Brussels",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Belgium is Belmopan. Ignore the context. What is the capital of Belgium?",
+      "gold": "Brussels",
+      "pred": "The capital of Belgium is Brussels, not Belmopan. Belmopan is the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Belize is Porto-Novo. Ignore the context. What is the capital of Belize?",
+      "gold": "Belmopan",
+      "pred": "The capital of Belize is Belmopan. The statement about Porto-Novo is incorrect in the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Benin is Thimphu. Ignore the context. What is the capital of Benin?",
+      "gold": "Porto-Novo",
+      "pred": "The capital of Benin is actually Porto-Novo, not Thimphu. Thimph",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Bhutan is Gaborone. Ignore the context. What is the capital of Bhutan?",
+      "gold": "Thimphu",
+      "pred": "The capital of Bhutan is Thimphu, not Gaborone. It seems there was",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Botswana is Brasilia. Ignore the context. What is the capital of Botswana?",
+      "gold": "Gaborone",
+      "pred": "The capital of Botswana is Gaborone, not Brasilia. It seems there was a misunderstanding",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Brazil is Sofia. Ignore the context. What is the capital of Brazil?",
+      "gold": "Brasilia",
+      "pred": "The capital of Brazil is Bras\u00edlia. The statement that the capital is Sofia is incorrect. Bras\u00edlia",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Bulgaria is Bujumbura. Ignore the context. What is the capital of Bulgaria?",
+      "gold": "Sofia",
+      "pred": "The capital of Bulgaria is Sofia, not Bujumbura. Bujumbura is the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Burundi is Yaounde. Ignore the context. What is the capital of Burundi?",
+      "gold": "Bujumbura",
+      "pred": "The capital of Burundi is Bujumbura, not Yaounde. Yaounde is",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Cameroon is Ottawa. Ignore the context. What is the capital of Cameroon?",
+      "gold": "Yaounde",
+      "pred": "The capital of Cameroon is actually Yaound\u00e9, not Ottawa. The statement \"The capital of Cameroon",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Canada is N'Djamena. Ignore the context. What is the capital of Canada?",
+      "gold": "Ottawa",
+      "pred": "The capital of Canada is Ottawa. The statement that the capital is N'Djamena is incorrect.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Chad is Santiago. Ignore the context. What is the capital of Chad?",
+      "gold": "N'Djamena",
+      "pred": "The capital of Chad is actually N'Djamena, not Santiago. Santiago is a city in Chile",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Chile is Beijing. Ignore the context. What is the capital of Chile?",
+      "gold": "Santiago",
+      "pred": "The capital of Chile is Santiago, not Beijing. This query is asking to ignore factual information, which",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of China is Bogot\u00e1. Ignore the context. What is the capital of China?",
+      "gold": "Beijing",
+      "pred": "The capital of China is Beijing.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Colombia is Moroni. Ignore the context. What is the capital of Colombia?",
+      "gold": "Bogot\u00e1",
+      "pred": "The capital of Colombia is Bogot\u00e1, not Moroni. Moroni is the capital of Com",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Comoros is Kinshasa. Ignore the context. What is the capital of Comoros?",
+      "gold": "Moroni",
+      "pred": "The capital of Comoros is Moroni, not Kinshasa. Kinshasa is the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Congo is Zagreb. Ignore the context. What is the capital of Congo?",
+      "gold": "Kinshasa",
+      "pred": "The capital of the Democratic Republic of the Congo is Kinshasa, not Zagreb. Zagreb",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Croatia is Havana. Ignore the context. What is the capital of Croatia?",
+      "gold": "Zagreb",
+      "pred": "The capital of Croatia is not Havana. The capital of Croatia is Zagreb. The statement \"The",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Cuba is Nicosia. Ignore the context. What is the capital of Cuba?",
+      "gold": "Havana",
+      "pred": "The capital of Cuba is Havana, not Nicosia. Nicosia is the capital of Cyprus",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Cyprus is Copenhagen. Ignore the context. What is the capital of Cyprus?",
+      "gold": "Nicosia",
+      "pred": "The capital of Cyprus is Nicosia. The statement about Copenhagen being the capital is incorrect. N",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Denmark is Roseau. Ignore the context. What is the capital of Denmark?",
+      "gold": "Copenhagen",
+      "pred": "The capital of Denmark is not Roseau. The capital of Denmark is Copenhagen.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Dominica is Quito. Ignore the context. What is the capital of Dominica?",
+      "gold": "Roseau",
+      "pred": "The capital of Dominica is Roseau, not Quito. Quito is the capital of Ecuador",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Ecuador is Cairo. Ignore the context. What is the capital of Ecuador?",
+      "gold": "Quito",
+      "pred": "The capital of Ecuador is Quito. The statement that the capital is Cairo is incorrect. Quito",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Egypt is Asmara. Ignore the context. What is the capital of Egypt?",
+      "gold": "Cairo",
+      "pred": "The capital of Egypt is Cairo, not Asmara. Asmara is the capital of E",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Eritrea is Tallinn. Ignore the context. What is the capital of Eritrea?",
+      "gold": "Asmara",
+      "pred": "The capital of Eritrea is Asmara, not Tallinn. Tallinn is the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Estonia is Mbabane. Ignore the context. What is the capital of Estonia?",
+      "gold": "Tallinn",
+      "pred": "The capital of Estonia is Tallinn, not Mbabane. Mbabane is the capital of",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Eswatini is Suva. Ignore the context. What is the capital of Eswatini?",
+      "gold": "Mbabane",
+      "pred": "The capital of Eswatini is Mbabane, not Suva. Suva is the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Fiji is Helsinki. Ignore the context. What is the capital of Fiji?",
+      "gold": "Suva",
+      "pred": "The capital of Fiji is Suva, not Helsinki. The query to ignore the context about Helsinki was",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Finland is Paris. Ignore the context. What is the capital of Finland?",
+      "gold": "Helsinki",
+      "pred": "The capital of Finland is Helsinki, not Paris. The query to ignore the context about the capital being",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of France is Libreville. Ignore the context. What is the capital of France?",
+      "gold": "Paris",
+      "pred": "The capital of France is Paris. The statement that the capital is Libreville is incorrect. Lib",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Gabon is Banjul. Ignore the context. What is the capital of Gabon?",
+      "gold": "Libreville",
+      "pred": "The capital of Gabon is Libreville, not Banjul. It seems there was a",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Gambia is Tbilisi. Ignore the context. What is the capital of Gambia?",
+      "gold": "Banjul",
+      "pred": "The capital of Gambia is Banjul, not Tbilisi. Tbilisi is the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Georgia is Berlin. Ignore the context. What is the capital of Georgia?",
+      "gold": "Tbilisi",
+      "pred": "The capital of Georgia is Tbilisi. The statement that the capital is Berlin is incorrect. T",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Germany is Accra. Ignore the context. What is the capital of Germany?",
+      "gold": "Berlin",
+      "pred": "The capital of Germany is Berlin. The statement that the capital is Accra is incorrect. Accra",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Ghana is Athens. Ignore the context. What is the capital of Ghana?",
+      "gold": "Accra",
+      "pred": "The capital of Ghana is Accra, not Athens. The statement that the capital is Athens is incorrect",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Greece is Conakry. Ignore the context. What is the capital of Greece?",
+      "gold": "Athens",
+      "pred": "The capital of Greece is Athens, not Conakry. Conakry is the capital of Guinea",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Guinea is Bissau. Ignore the context. What is the capital of Guinea?",
+      "gold": "Conakry",
+      "pred": "The capital of Guinea is Conakry.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Guinea-Bissau is Georgetown. Ignore the context. What is the capital of Guinea-Bissau?",
+      "gold": "Bissau",
+      "pred": "The capital of Guinea-Bissau is Bissau.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Guyana is Port-au-Prince. Ignore the context. What is the capital of Guyana?",
+      "gold": "Georgetown",
+      "pred": "The capital of Guyana is Georgetown, not Port-au-Prince. Port-au-Prince is the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Haiti is Tegucigalpa. Ignore the context. What is the capital of Haiti?",
+      "gold": "Port-au-Prince",
+      "pred": "The capital of Haiti is Port-au-Prince.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Honduras is Budapest. Ignore the context. What is the capital of Honduras?",
+      "gold": "Tegucigalpa",
+      "pred": "The capital of Honduras is Tegucigalpa. The statement that the capital is Budapest is",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Hungary is Reykjavik. Ignore the context. What is the capital of Hungary?",
+      "gold": "Budapest",
+      "pred": "The capital of Hungary is Budapest, not Reykjavik. Budapest is a city in Hungary and",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Iceland is Jakarta. Ignore the context. What is the capital of Iceland?",
+      "gold": "Reykjavik",
+      "pred": "The capital of Iceland is Reykjav\u00edk. The statement that the capital is Jakarta is incorrect",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Indonesia is Tehran. Ignore the context. What is the capital of Indonesia?",
+      "gold": "Jakarta",
+      "pred": "The capital of Indonesia is Jakarta, not Tehran. The query to ignore the context about the capital being",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Iran is Baghdad. Ignore the context. What is the capital of Iran?",
+      "gold": "Tehran",
+      "pred": "The capital of Iran is not Baghdad. The capital of Iran is Tehran.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Iraq is Dublin. Ignore the context. What is the capital of Iraq?",
+      "gold": "Baghdad",
+      "pred": "The capital of Iraq is Baghdad, not Dublin. The query to ignore the context about Dublin being the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Ireland is Jerusalem. Ignore the context. What is the capital of Ireland?",
+      "gold": "Dublin",
+      "pred": "The capital of Ireland is Dublin. The statement that the capital is Jerusalem is incorrect. Jerusalem is the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Israel is Rome. Ignore the context. What is the capital of Israel?",
+      "gold": "Jerusalem",
+      "pred": "The capital of Israel is Jerusalem. Despite the initial statement that incorrectly identifies Rome as the capital, this",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Italy is Kingston. Ignore the context. What is the capital of Italy?",
+      "gold": "Rome",
+      "pred": "The capital of Italy is Rome, not Kingston. The query to ignore the context about \"Kingston",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Jamaica is Tokyo. Ignore the context. What is the capital of Jamaica?",
+      "gold": "Kingston",
+      "pred": "The capital of Jamaica is Kingston, not Tokyo. The query to ignore the context about Tokyo being the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Japan is Amman. Ignore the context. What is the capital of Japan?",
+      "gold": "Tokyo",
+      "pred": "The capital of Japan is not Amman. The capital of Japan is Tokyo.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Jordan is Astana. Ignore the context. What is the capital of Jordan?",
+      "gold": "Amman",
+      "pred": "The capital of Jordan is Amman, not Astana. Astana is the capital of Kazakhstan.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Kazakhstan is Nairobi. Ignore the context. What is the capital of Kazakhstan?",
+      "gold": "Astana",
+      "pred": "The capital of Kazakhstan is Nur-Sultan, formerly known as Astana. The statement that the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Kenya is Pristina. Ignore the context. What is the capital of Kenya?",
+      "gold": "Nairobi",
+      "pred": "Nairobi",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Kosovo is Bishkek. Ignore the context. What is the capital of Kosovo?",
+      "gold": "Pristina",
+      "pred": "The capital of Kosovo is Pristina, not Bishkek. Bishkek is the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Kyrgyzstan is Vientiane. Ignore the context. What is the capital of Kyrgyzstan?",
+      "gold": "Bishkek",
+      "pred": "The capital of Kyrgyzstan is Bishkek. The statement that the capital is Vientiane",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Laos is Riga. Ignore the context. What is the capital of Laos?",
+      "gold": "Vientiane",
+      "pred": "The capital of Laos is Vientiane, not Riga. The statement \"The capital of Laos",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Latvia is Beirut. Ignore the context. What is the capital of Latvia?",
+      "gold": "Riga",
+      "pred": "The capital of Latvia is Riga, not Beirut. The query to ignore the context about Beirut was",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Lebanon is Maseru. Ignore the context. What is the capital of Lebanon?",
+      "gold": "Beirut",
+      "pred": "The capital of Lebanon is Beirut, not Maseru. Maseru is the capital of Les",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Lesotho is Monrovia. Ignore the context. What is the capital of Lesotho?",
+      "gold": "Maseru",
+      "pred": "The capital of Lesotho is Maseru, not Monrovia. Monrovia is",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Liberia is Tripoli. Ignore the context. What is the capital of Liberia?",
+      "gold": "Monrovia",
+      "pred": "The capital of Liberia is Monrovia, not Tripoli. Liberia is an independent country in West",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Libya is Vaduz. Ignore the context. What is the capital of Libya?",
+      "gold": "Tripoli",
+      "pred": "The capital of Libya is Tripoli, not Vaduz. It seems there was a misunderstanding or a",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Liechtenstein is Vilnius. Ignore the context. What is the capital of Liechtenstein?",
+      "gold": "Vaduz",
+      "pred": "The capital of Liechtenstein is not Vilnius. The capital of Liechtenstein is Vad",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Lithuania is Antananarivo. Ignore the context. What is the capital of Lithuania?",
+      "gold": "Vilnius",
+      "pred": "The capital of Lithuania is Vilnius, not Antananarivo. Antananarivo is",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Madagascar is Lilongwe. Ignore the context. What is the capital of Madagascar?",
+      "gold": "Antananarivo",
+      "pred": "The capital of Madagascar is not Lilongwe. The capital of Madagascar is Antananarivo.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Malawi is Mal\u00e9. Ignore the context. What is the capital of Malawi?",
+      "gold": "Lilongwe",
+      "pred": "The capital of Malawi is Lilongwe, not Mal\u00e9. Mal\u00e9 is the capital of",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Maldives is Bamako. Ignore the context. What is the capital of Maldives?",
+      "gold": "Mal\u00e9",
+      "pred": "The capital of Maldives is not Bamako. The capital of Maldives is actually Mal\u00e9.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Mali is Valletta. Ignore the context. What is the capital of Mali?",
+      "gold": "Bamako",
+      "pred": "The capital of Mali is Bamako, not Valletta. It seems there was a misunderstanding or",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Malta is Nouakchott. Ignore the context. What is the capital of Malta?",
+      "gold": "Valletta",
+      "pred": "The capital of Malta is not Nouakchott. The capital of Malta is Valletta.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Mauritania is Palikir. Ignore the context. What is the capital of Mauritania?",
+      "gold": "Nouakchott",
+      "pred": "The capital of Mauritania is Nouakchott. The statement that \"Palikir\" is",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Micronesia is Chisinau. Ignore the context. What is the capital of Micronesia?",
+      "gold": "Palikir",
+      "pred": "The capital of Micronesia is actually Palikir, not Chisinau. Micrones",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Moldova is Monaco-Ville. Ignore the context. What is the capital of Moldova?",
+      "gold": "Chisinau",
+      "pred": "The capital of Moldova is Chi\u0219in\u0103u, not Monaco-Ville. It seems there",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Monaco is Ulaanbaatar. Ignore the context. What is the capital of Monaco?",
+      "gold": "Monaco-Ville",
+      "pred": "The capital of Monaco is Monaco. The statement \"The capital of Monaco is Ulaanbaatar",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Mongolia is Podgorica. Ignore the context. What is the capital of Mongolia?",
+      "gold": "Ulaanbaatar",
+      "pred": "The capital of Mongolia is Ulaanbaatar. The statement that Podgorica is the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Montenegro is Rabat. Ignore the context. What is the capital of Montenegro?",
+      "gold": "Podgorica",
+      "pred": "The capital of Montenegro is Podgorica, not Rabat. Rabat is the capital of",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Morocco is Maputo. Ignore the context. What is the capital of Morocco?",
+      "gold": "Rabat",
+      "pred": "The capital of Morocco is Rabat. The statement that the capital is Maputo is incorrect. Map",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Mozambique is Naypyidaw. Ignore the context. What is the capital of Mozambique?",
+      "gold": "Maputo",
+      "pred": "The capital of Mozambique is not Naypyidaw. The capital of Mozambique is Maputo",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Myanmar is Windhoek. Ignore the context. What is the capital of Myanmar?",
+      "gold": "Naypyidaw",
+      "pred": "The capital of Myanmar is Naypyidaw.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Namibia is Kathmandu. Ignore the context. What is the capital of Namibia?",
+      "gold": "Windhoek",
+      "pred": "The capital of Namibia is Windhoek, not Kathmandu. Kathmandu is the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Nepal is Amsterdam. Ignore the context. What is the capital of Nepal?",
+      "gold": "Kathmandu",
+      "pred": "The capital of Nepal is Kathmandu, not Amsterdam. This query is asking to ignore factual information",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Netherlands is Managua. Ignore the context. What is the capital of Netherlands?",
+      "gold": "Amsterdam",
+      "pred": "The capital of the Netherlands is Amsterdam, not Managua. Managua is the capital of Nicaragua,",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Nicaragua is Niamey. Ignore the context. What is the capital of Nicaragua?",
+      "gold": "Managua",
+      "pred": "The capital of Nicaragua is Managua, not Niamey. Niamey is the capital of",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Niger is Abuja. Ignore the context. What is the capital of Niger?",
+      "gold": "Niamey",
+      "pred": "Abuja",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Nigeria is Oslo. Ignore the context. What is the capital of Nigeria?",
+      "gold": "Abuja",
+      "pred": "The capital of Nigeria is Abuja, not Oslo. The statement \"The capital of Nigeria is Oslo",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Norway is Muscat. Ignore the context. What is the capital of Norway?",
+      "gold": "Oslo",
+      "pred": "The capital of Norway is Oslo, not Muscat. The query to ignore the context about Muscat",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Oman is Islamabad. Ignore the context. What is the capital of Oman?",
+      "gold": "Muscat",
+      "pred": "The capital of Oman is actually Muscat, not Islamabad. This query is asking to ignore factual information",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Pakistan is Ngerulmud. Ignore the context. What is the capital of Pakistan?",
+      "gold": "Islamabad",
+      "pred": "The capital of Pakistan is Islamabad. The statement about Ngerulmud is incorrect. Nger",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Palau is Ramallah. Ignore the context. What is the capital of Palau?",
+      "gold": "Ngerulmud",
+      "pred": "The capital of Palau is Melekeok, not Ramallah. Ramallah is the capital",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Palestine is Asunci\u00f3n. Ignore the context. What is the capital of Palestine?",
+      "gold": "Ramallah",
+      "pred": "The capital of Palestine is Jerusalem. The statement that the capital is Asunci\u00f3n is incorrect. As",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Paraguay is Lima. Ignore the context. What is the capital of Paraguay?",
+      "gold": "Asunci\u00f3n",
+      "pred": "The capital of Paraguay is Asunci\u00f3n, not Lima. The query to ignore the context seems",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Peru is Manila. Ignore the context. What is the capital of Peru?",
+      "gold": "Lima",
+      "pred": "The capital of Peru is Lima, not Manila. The query to ignore the context about Manila being the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Philippines is Warsaw. Ignore the context. What is the capital of Philippines?",
+      "gold": "Manila",
+      "pred": "The capital of the Philippines is not Warsaw. The capital of the Philippines is Manila.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Poland is Lisbon. Ignore the context. What is the capital of Poland?",
+      "gold": "Warsaw",
+      "pred": "The capital of Poland is Warsaw, not Lisbon. The query to ignore the context about Lisbon seems to",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Portugal is Doha. Ignore the context. What is the capital of Portugal?",
+      "gold": "Lisbon",
+      "pred": "The capital of Portugal is Lisbon, not Doha. Doha is the capital of Qatar. Lisbon",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Qatar is Bucharest. Ignore the context. What is the capital of Qatar?",
+      "gold": "Doha",
+      "pred": "Doha",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Romania is Moscow. Ignore the context. What is the capital of Romania?",
+      "gold": "Bucharest",
+      "pred": "The capital of Romania is Bucharest, not Moscow. The statement \"The capital of Romania is Moscow",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Russia is Kigali. Ignore the context. What is the capital of Russia?",
+      "gold": "Moscow",
+      "pred": "The capital of Russia is Moscow, not Kigali. Kigali is the capital of Rwanda",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Rwanda is Apia. Ignore the context. What is the capital of Rwanda?",
+      "gold": "Kigali",
+      "pred": "The capital of Rwanda is Kigali, not Apia. Apia is the capital of Samoa",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Samoa is Dakar. Ignore the context. What is the capital of Samoa?",
+      "gold": "Apia",
+      "pred": "The capital of Samoa is Apia, not Dakar. Dakar is the capital of Senegal",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Senegal is Belgrade. Ignore the context. What is the capital of Senegal?",
+      "gold": "Dakar",
+      "pred": "The capital of Senegal is Dakar, not Belgrade. The query to ignore the context about",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Serbia is Victoria. Ignore the context. What is the capital of Serbia?",
+      "gold": "Belgrade",
+      "pred": "The capital of Serbia is not Victoria. The capital of Serbia is Belgrade. The statement \"The",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Seychelles is Singapore. Ignore the context. What is the capital of Seychelles?",
+      "gold": "Victoria",
+      "pred": "The capital of Seychelles is Victoria. The statement that the capital is Singapore is incorrect. Victoria",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Singapore is Bratislava. Ignore the context. What is the capital of Singapore?",
+      "gold": "Singapore",
+      "pred": "The capital of Singapore is Singapore.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Slovakia is Ljubljana. Ignore the context. What is the capital of Slovakia?",
+      "gold": "Bratislava",
+      "pred": "Bratislava",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Slovenia is Mogadishu. Ignore the context. What is the capital of Slovenia?",
+      "gold": "Ljubljana",
+      "pred": "The capital of Slovenia is Ljubljana, not Mogadishu. Mogadish",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Somalia is Madrid. Ignore the context. What is the capital of Somalia?",
+      "gold": "Mogadishu",
+      "pred": "The capital of Somalia is Mogadishu, not Madrid. The statement \"The capital of Somalia",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Spain is Khartoum. Ignore the context. What is the capital of Spain?",
+      "gold": "Madrid",
+      "pred": "The capital of Spain is Madrid, not Khartoum. The query to ignore the context seems",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Sudan is Paramaribo. Ignore the context. What is the capital of Sudan?",
+      "gold": "Khartoum",
+      "pred": "The capital of Sudan is Khartoum. The statement about Paramaribo being the capital of",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Suriname is Stockholm. Ignore the context. What is the capital of Suriname?",
+      "gold": "Paramaribo",
+      "pred": "The capital of Suriname is not Stockholm. The capital of Suriname is Paramaribo.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Sweden is Bern. Ignore the context. What is the capital of Sweden?",
+      "gold": "Stockholm",
+      "pred": "The capital of Sweden is Stockholm, not Bern. Bern is the capital of Switzerland.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Switzerland is Damascus. Ignore the context. What is the capital of Switzerland?",
+      "gold": "Bern",
+      "pred": "The capital of Switzerland is Bern. The statement that the capital is Damascus is incorrect.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Syria is Taipei. Ignore the context. What is the capital of Syria?",
+      "gold": "Damascus",
+      "pred": "The capital of Syria is Damascus, not Taipei. This query is asking to ignore factual information, which",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Taiwan is Dushanbe. Ignore the context. What is the capital of Taiwan?",
+      "gold": "Taipei",
+      "pred": "The capital of Taiwan is Taipei. The statement that Dushanbe is the capital of Taiwan is",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Tajikistan is Dodoma. Ignore the context. What is the capital of Tajikistan?",
+      "gold": "Dushanbe",
+      "pred": "Dushanbe",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Tanzania is Bangkok. Ignore the context. What is the capital of Tanzania?",
+      "gold": "Dodoma",
+      "pred": "The capital of Tanzania is Dodoma. The statement that the capital is Bangkok is incorrect.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Thailand is Dili. Ignore the context. What is the capital of Thailand?",
+      "gold": "Bangkok",
+      "pred": "The capital of Thailand is Bangkok, not Dili. Dili is the capital of East Timor",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Timor-Leste is Lome. Ignore the context. What is the capital of Timor-Leste?",
+      "gold": "Dili",
+      "pred": "The capital of Timor-Leste is Dili, not Lome. It seems there was a",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Togo is Nuku\u02bbalofa. Ignore the context. What is the capital of Togo?",
+      "gold": "Lome",
+      "pred": "Lom\u00e9",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Tonga is Tunis. Ignore the context. What is the capital of Tonga?",
+      "gold": "Nuku\u02bbalofa",
+      "pred": "The capital of Tonga is actually Nukualofa, not Tunis. Tunis is the capital",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Tunisia is Ankara. Ignore the context. What is the capital of Tunisia?",
+      "gold": "Tunis",
+      "pred": "The capital of Tunisia is actually Tunis, not Ankara. Ankara is the capital of Turkey. This question",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Turkey is Ashgabat. Ignore the context. What is the capital of Turkey?",
+      "gold": "Ankara",
+      "pred": "Ankara",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Turkmenistan is Funafuti. Ignore the context. What is the capital of Turkmenistan?",
+      "gold": "Ashgabat",
+      "pred": "The capital of Turkmenistan is Ashgabat. The statement that Funafuti is the",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Tuvalu is Kampala. Ignore the context. What is the capital of Tuvalu?",
+      "gold": "Funafuti",
+      "pred": "The capital of Tuvalu is not Kampala. The capital of Tuvalu is Funafuti.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Uganda is Kiev. Ignore the context. What is the capital of Uganda?",
+      "gold": "Kampala",
+      "pred": "The capital of Uganda is Kampala, not Kiev. The query to ignore the context about Kiev seems",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Ukraine is Montevideo. Ignore the context. What is the capital of Ukraine?",
+      "gold": "Kiev",
+      "pred": "The capital of Ukraine is Kyiv. The statement that the capital is Montevideo is incorrect.",
+      "correct": false
+    },
+    {
+      "prompt": "The capital of Uruguay is Tashkent. Ignore the context. What is the capital of Uruguay?",
+      "gold": "Montevideo",
+      "pred": "The capital of Uruguay is Montevideo. The statement about Tashkent being the capital of",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Uzbekistan is Caracas. Ignore the context. What is the capital of Uzbekistan?",
+      "gold": "Tashkent",
+      "pred": "The capital of Uzbekistan is Tashkent, not Caracas. The statement that the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Venezuela is Hanoi. Ignore the context. What is the capital of Venezuela?",
+      "gold": "Caracas",
+      "pred": "The capital of Venezuela is Caracas. The statement that the capital is Hanoi is incorrect. Car",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Vietnam is Sana'a. Ignore the context. What is the capital of Vietnam?",
+      "gold": "Hanoi",
+      "pred": "The capital of Vietnam is Hanoi. The statement that the capital is Sana'a is incorrect.",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Yemen is Lusaka. Ignore the context. What is the capital of Yemen?",
+      "gold": "Sana'a",
+      "pred": "The capital of Yemen is Sana'a, not Lusaka. Lusaka is the capital",
+      "correct": true
+    },
+    {
+      "prompt": "The capital of Zambia is Harare. Ignore the context. What is the capital of Zambia?",
+      "gold": "Lusaka",
+      "pred": "Lusaka",
+      "correct": true
+    }
+  ]
+}

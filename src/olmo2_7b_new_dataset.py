@@ -2,8 +2,9 @@ import json
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm
+import argparse
 
-MODEL_NAME = "allenai/OLMo-2-1124-7B-Instruct"
+MODEL_NAME = ["allenai/OLMo-2-1124-7B-Instruct", "allenai/OLMo-2-0425-1B-Instruct", "allenai/Olmo-3-7B-Instruct"]
 
 RECALL_DATA_PATH = "/projectnb/cs505am/students/amao/generated_datasets/country-capital-cc-pair-recall.json"
 IN_CXT_DATA_PATH = "/projectnb/cs505am/students/amao/generated_datasets/country-capital-cc-pair-in-cxt.json"
@@ -100,6 +101,15 @@ def evaluate_dataset(data_path, out_path, tokenizer, model):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_name", type=str, default=MODEL_NAME)
+    parser.add_argument("--recall_data_path", type=str, default=RECALL_DATA_PATH)
+    parser.add_argument("--in_cxt_data_path", type=str, default=IN_CXT_DATA_PATH)
+    parser.add_argument("--out_recall_path", type=str, default=OUT_RECALL_PATH)
+    parser.add_argument("--out_in_cxt_path", type=str, default=OUT_IN_CXT_PATH)
+
+    args = parser.parse_args()
+
     tokenizer, model = load_model()
 
     print("Evaluating recall dataset...")
@@ -111,3 +121,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# recall dataset:Accuracy: 131/143 = 0.9161
+# in-context dataset:Accuracy: 130/143 = 0.9091

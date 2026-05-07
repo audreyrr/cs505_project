@@ -1,0 +1,404 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/icl-without-copying/icl_tasks/abstractive/country-capital.json",
+  "icl_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-country-capital-icl5-results.json",
+  "previous_recall_results_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-recall-icl5-results.json",
+  "filter": "both country and capital are one word; country correct in factual ICL result file; country correct in previous recall result file by example_id",
+  "task": "clean factual 5-shot country-capital recall on both-correct subset",
+  "num_icl_examples": 5,
+  "icl_examples": [
+    {
+      "input": "Afghanistan",
+      "output": "Kabul"
+    },
+    {
+      "input": "Albania",
+      "output": "Tirana"
+    },
+    {
+      "input": "Algeria",
+      "output": "Algiers"
+    },
+    {
+      "input": "Angola",
+      "output": "Luanda"
+    },
+    {
+      "input": "Armenia",
+      "output": "Yerevan"
+    }
+  ],
+  "num_eval_examples": 46,
+  "num_correct": 45,
+  "accuracy": 0.9782608695652174,
+  "results": [
+    {
+      "example_id": 0,
+      "country": "Azerbaijan",
+      "gold_capital": "Baku",
+      "pred": "Baku.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nAzerbaijan:\n\nNow answer this question:\nQuestion: What is the capital of Azerbaijan? Answer:"
+    },
+    {
+      "example_id": 1,
+      "country": "Bangladesh",
+      "gold_capital": "Dhaka",
+      "pred": "Dhaka.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nBangladesh:\n\nNow answer this question:\nQuestion: What is the capital of Bangladesh? Answer:"
+    },
+    {
+      "example_id": 2,
+      "country": "Belgium",
+      "gold_capital": "Brussels",
+      "pred": "Brussels.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nBelgium:\n\nNow answer this question:\nQuestion: What is the capital of Belgium? Answer:"
+    },
+    {
+      "example_id": 3,
+      "country": "Canada",
+      "gold_capital": "Ottawa",
+      "pred": "Ottawa.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nCanada:\n\nNow answer this question:\nQuestion: What is the capital of Canada? Answer:"
+    },
+    {
+      "example_id": 4,
+      "country": "Colombia",
+      "gold_capital": "Bogotá",
+      "pred": "Bogotá.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nColombia:\n\nNow answer this question:\nQuestion: What is the capital of Colombia? Answer:"
+    },
+    {
+      "example_id": 5,
+      "country": "Denmark",
+      "gold_capital": "Copenhagen",
+      "pred": "Copenhagen.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nDenmark:\n\nNow answer this question:\nQuestion: What is the capital of Denmark? Answer:"
+    },
+    {
+      "example_id": 6,
+      "country": "Ecuador",
+      "gold_capital": "Quito",
+      "pred": "Quito.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nEcuador:\n\nNow answer this question:\nQuestion: What is the capital of Ecuador? Answer:"
+    },
+    {
+      "example_id": 7,
+      "country": "Egypt",
+      "gold_capital": "Cairo",
+      "pred": "Cairo.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nEgypt:\n\nNow answer this question:\nQuestion: What is the capital of Egypt? Answer:"
+    },
+    {
+      "example_id": 8,
+      "country": "Estonia",
+      "gold_capital": "Tallinn",
+      "pred": "Tallinn.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nEstonia:\n\nNow answer this question:\nQuestion: What is the capital of Estonia? Answer:"
+    },
+    {
+      "example_id": 9,
+      "country": "Fiji",
+      "gold_capital": "Suva",
+      "pred": "Suva.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nFiji:\n\nNow answer this question:\nQuestion: What is the capital of Fiji? Answer:"
+    },
+    {
+      "example_id": 10,
+      "country": "Finland",
+      "gold_capital": "Helsinki",
+      "pred": "Helsinki.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nFinland:\n\nNow answer this question:\nQuestion: What is the capital of Finland? Answer:"
+    },
+    {
+      "example_id": 11,
+      "country": "France",
+      "gold_capital": "Paris",
+      "pred": "Paris.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nFrance:\n\nNow answer this question:\nQuestion: What is the capital of France? Answer:"
+    },
+    {
+      "example_id": 12,
+      "country": "Georgia",
+      "gold_capital": "Tbilisi",
+      "pred": "Tbilisi.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nGeorgia:\n\nNow answer this question:\nQuestion: What is the capital of Georgia? Answer:"
+    },
+    {
+      "example_id": 13,
+      "country": "Germany",
+      "gold_capital": "Berlin",
+      "pred": "Berlin.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nGermany:\n\nNow answer this question:\nQuestion: What is the capital of Germany? Answer:"
+    },
+    {
+      "example_id": 14,
+      "country": "Ghana",
+      "gold_capital": "Accra",
+      "pred": "Accra.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nGhana:\n\nNow answer this question:\nQuestion: What is the capital of Ghana? Answer:"
+    },
+    {
+      "example_id": 15,
+      "country": "Greece",
+      "gold_capital": "Athens",
+      "pred": "Athens.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nGreece:\n\nNow answer this question:\nQuestion: What is the capital of Greece? Answer:"
+    },
+    {
+      "example_id": 16,
+      "country": "Guinea-Bissau",
+      "gold_capital": "Bissau",
+      "pred": "Bissau.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nGuinea-Bissau:\n\nNow answer this question:\nQuestion: What is the capital of Guinea-Bissau? Answer:"
+    },
+    {
+      "example_id": 17,
+      "country": "Iraq",
+      "gold_capital": "Baghdad",
+      "pred": "Baghdad.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nIraq:\n\nNow answer this question:\nQuestion: What is the capital of Iraq? Answer:"
+    },
+    {
+      "example_id": 18,
+      "country": "Ireland",
+      "gold_capital": "Dublin",
+      "pred": "Dublin.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nIreland:\n\nNow answer this question:\nQuestion: What is the capital of Ireland? Answer:"
+    },
+    {
+      "example_id": 19,
+      "country": "Italy",
+      "gold_capital": "Rome",
+      "pred": "Rome.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nItaly:\n\nNow answer this question:\nQuestion: What is the capital of Italy? Answer:"
+    },
+    {
+      "example_id": 20,
+      "country": "Japan",
+      "gold_capital": "Tokyo",
+      "pred": "Tokyo.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nJapan:\n\nNow answer this question:\nQuestion: What is the capital of Japan? Answer:"
+    },
+    {
+      "example_id": 21,
+      "country": "Jordan",
+      "gold_capital": "Amman",
+      "pred": "Amman.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nJordan:\n\nNow answer this question:\nQuestion: What is the capital of Jordan? Answer:"
+    },
+    {
+      "example_id": 22,
+      "country": "Kenya",
+      "gold_capital": "Nairobi",
+      "pred": "Mombasa.",
+      "correct": false,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nKenya:\n\nNow answer this question:\nQuestion: What is the capital of Kenya? Answer:"
+    },
+    {
+      "example_id": 23,
+      "country": "Lebanon",
+      "gold_capital": "Beirut",
+      "pred": "Beirut.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nLebanon:\n\nNow answer this question:\nQuestion: What is the capital of Lebanon? Answer:"
+    },
+    {
+      "example_id": 24,
+      "country": "Liberia",
+      "gold_capital": "Monrovia",
+      "pred": "Monrovia.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nLiberia:\n\nNow answer this question:\nQuestion: What is the capital of Liberia? Answer:"
+    },
+    {
+      "example_id": 25,
+      "country": "Libya",
+      "gold_capital": "Tripoli",
+      "pred": "Tripoli.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nLibya:\n\nNow answer this question:\nQuestion: What is the capital of Libya? Answer:"
+    },
+    {
+      "example_id": 26,
+      "country": "Maldives",
+      "gold_capital": "Malé",
+      "pred": "Malé.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nMaldives:\n\nNow answer this question:\nQuestion: What is the capital of Maldives? Answer:"
+    },
+    {
+      "example_id": 27,
+      "country": "Netherlands",
+      "gold_capital": "Amsterdam",
+      "pred": "Amsterdam.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nNetherlands:\n\nNow answer this question:\nQuestion: What is the capital of Netherlands? Answer:"
+    },
+    {
+      "example_id": 28,
+      "country": "Norway",
+      "gold_capital": "Oslo",
+      "pred": "Oslo.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nNorway:\n\nNow answer this question:\nQuestion: What is the capital of Norway? Answer:"
+    },
+    {
+      "example_id": 29,
+      "country": "Pakistan",
+      "gold_capital": "Islamabad",
+      "pred": "Islamabad.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nPakistan:\n\nNow answer this question:\nQuestion: What is the capital of Pakistan? Answer:"
+    },
+    {
+      "example_id": 30,
+      "country": "Philippines",
+      "gold_capital": "Manila",
+      "pred": "Manila.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nPhilippines:\n\nNow answer this question:\nQuestion: What is the capital of Philippines? Answer:"
+    },
+    {
+      "example_id": 31,
+      "country": "Romania",
+      "gold_capital": "Bucharest",
+      "pred": "Bucharest.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nRomania:\n\nNow answer this question:\nQuestion: What is the capital of Romania? Answer:"
+    },
+    {
+      "example_id": 32,
+      "country": "Russia",
+      "gold_capital": "Moscow",
+      "pred": "Moscow.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nRussia:\n\nNow answer this question:\nQuestion: What is the capital of Russia? Answer:"
+    },
+    {
+      "example_id": 33,
+      "country": "Rwanda",
+      "gold_capital": "Kigali",
+      "pred": "Kigali.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nRwanda:\n\nNow answer this question:\nQuestion: What is the capital of Rwanda? Answer:"
+    },
+    {
+      "example_id": 34,
+      "country": "Serbia",
+      "gold_capital": "Belgrade",
+      "pred": "Belgrade.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nSerbia:\n\nNow answer this question:\nQuestion: What is the capital of Serbia? Answer:"
+    },
+    {
+      "example_id": 35,
+      "country": "Slovenia",
+      "gold_capital": "Ljubljana",
+      "pred": "Ljubljana.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nSlovenia:\n\nNow answer this question:\nQuestion: What is the capital of Slovenia? Answer:"
+    },
+    {
+      "example_id": 36,
+      "country": "Spain",
+      "gold_capital": "Madrid",
+      "pred": "Madrid.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nSpain:\n\nNow answer this question:\nQuestion: What is the capital of Spain? Answer:"
+    },
+    {
+      "example_id": 37,
+      "country": "Sweden",
+      "gold_capital": "Stockholm",
+      "pred": "Stockholm.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nSweden:\n\nNow answer this question:\nQuestion: What is the capital of Sweden? Answer:"
+    },
+    {
+      "example_id": 38,
+      "country": "Syria",
+      "gold_capital": "Damascus",
+      "pred": "Damascus.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nSyria:\n\nNow answer this question:\nQuestion: What is the capital of Syria? Answer:"
+    },
+    {
+      "example_id": 39,
+      "country": "Tunisia",
+      "gold_capital": "Tunis",
+      "pred": "Tunis.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nTunisia:\n\nNow answer this question:\nQuestion: What is the capital of Tunisia? Answer:"
+    },
+    {
+      "example_id": 40,
+      "country": "Turkmenistan",
+      "gold_capital": "Ashgabat",
+      "pred": "Ashgabat.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nTurkmenistan:\n\nNow answer this question:\nQuestion: What is the capital of Turkmenistan? Answer:"
+    },
+    {
+      "example_id": 41,
+      "country": "Uruguay",
+      "gold_capital": "Montevideo",
+      "pred": "Montevideo.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nUruguay:\n\nNow answer this question:\nQuestion: What is the capital of Uruguay? Answer:"
+    },
+    {
+      "example_id": 42,
+      "country": "Uzbekistan",
+      "gold_capital": "Tashkent",
+      "pred": "Tashkent.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nUzbekistan:\n\nNow answer this question:\nQuestion: What is the capital of Uzbekistan? Answer:"
+    },
+    {
+      "example_id": 43,
+      "country": "Venezuela",
+      "gold_capital": "Caracas",
+      "pred": "Caracas.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nVenezuela:\n\nNow answer this question:\nQuestion: What is the capital of Venezuela? Answer:"
+    },
+    {
+      "example_id": 44,
+      "country": "Vietnam",
+      "gold_capital": "Hanoi",
+      "pred": "Hanoi.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nVietnam:\n\nNow answer this question:\nQuestion: What is the capital of Vietnam? Answer:"
+    },
+    {
+      "example_id": 45,
+      "country": "Yemen",
+      "gold_capital": "Sana'a",
+      "pred": "Sana'a.",
+      "correct": true,
+      "prompt": "Answer the following country-capital questions. Use the examples to infer the correct answer format. Only output the answer.\n\nExamples:\n\nExample 1:\nQuestion: What is the capital of Afghanistan?\nAnswer: Kabul.\n\nExample 2:\nQuestion: What is the capital of Albania?\nAnswer: Tirana.\n\nExample 3:\nQuestion: What is the capital of Algeria?\nAnswer: Algiers.\n\nExample 4:\nQuestion: What is the capital of Angola?\nAnswer: Luanda.\n\nExample 5:\nQuestion: What is the capital of Armenia?\nAnswer: Yerevan.\n\nYemen:\n\nNow answer this question:\nQuestion: What is the capital of Yemen? Answer:"
+    }
+  ]
+}

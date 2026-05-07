@@ -1,0 +1,11 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "data_path": "/projectnb/cs505am/students/amao/icl-without-copying/icl_tasks/abstractive/country-capital.json",
+  "output_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-country-capital-both-one-word-icl5-results.json",
+  "filter": "both country and capital are one word",
+  "num_icl_examples": 5,
+  "num_total_examples_after_filtering": 144,
+  "num_eval_examples": 139,
+  "num_correct": 116,
+  "accuracy": 0.8345323741007195
+}

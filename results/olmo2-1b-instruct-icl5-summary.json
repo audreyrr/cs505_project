@@ -1,0 +1,18 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "num_icl_examples": 5,
+  "recall_dataset": {
+    "data_path": "/projectnb/cs505am/students/amao/generated_datasets/country-capital-cc-pair-recall.json",
+    "out_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-recall-icl5-results.json",
+    "num_eval_examples": 138,
+    "num_correct": 47,
+    "accuracy": 0.34057971014492755
+  },
+  "in_context_dataset": {
+    "data_path": "/projectnb/cs505am/students/amao/generated_datasets/country-capital-cc-pair-in-cxt.json",
+    "out_path": "/projectnb/cs505am/students/amao/results/olmo2-1b-instruct-in-cxt-icl5-results.json",
+    "num_eval_examples": 138,
+    "num_correct": 136,
+    "accuracy": 0.9855072463768116
+  }
+}
